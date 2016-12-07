@@ -1,0 +1,275 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Helvetica, arial;
+	font-size: 14px;
+	color: #000;
+	overflow-x: hidden;
+}
+a {
+	color: #0B9450;
+	text-decoration: underline;
+	cursor: auto;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 12px;
+}
+h1 {
+	color: #F49A32;
+	font-size: 25px;
+	margin: 0;
+	line-height: 25px;
+	font-style: bold;
+	padding: 10px 0 10px 0;
+	font-weight: bold;
+}
+h2 {
+	color: #F49A32;
+	font-size: 20px;
+	margin: 0;
+	line-height: 25px;
+	font-style: bold;
+	padding: 5px 0 0;
+	float: left;
+}
+h3 {
+	color: #F49A32;
+	font-size: 18px;
+	margin: 0;
+}
+h4 {
+	color: #01720C;
+	font-size: 15px;
+	margin: 0;
+}
+h5 {
+	color: rgb(83, 83, 83);
+	font-size: 12px;
+	margin: 0;
+}
+h6 {
+	color: #01720C;
+	font-size: 10px;
+	margin: 0;
+}
+table.zebra {
+	width: 100%;
+	margin: 0;
+}
+table.zebra th {
+	font-size: 16px;
+	font-weight: normal;
+	text-align: left
+}
+table.zebra th, table.zebra td {
+	padding: 0;
+	text-align: center;
+	font-size: 12px;
+	line-height: 17px;
+	border-right: 1px solid #DDD;
+}
+table.zebra tbody, table.zebra tfoot {
+	font-size: 12px
+}
+table.zebra .bold {
+	font-weight: bold
+}
+table.zebra .center {
+	text-align: center
+}
+table.zebra td * {
+	vertical-align: middle
+}
+table.zebra tfoot {
+	font-style: italic
+}
+table.zebra caption {
+	font-size: 11px;
+	text-align: left;
+	font-style: italic
+}
+ul.zebra > li, table.zebra tbody td {
+	border-bottom: 1px solid #DDD;
+}
+ul.zebra > li:first-child, table.zebra tbody tr:first-child td {
+	border-top: 1px solid #ddd
+}
+ul.zebra > li.odd, table.zebra tbody tr.odd {
+	background: #F4F4F4
+}
+ul.zebra > li:nth-of-type(odd), table.zebra tbody tr:nth-of-type(odd) {
+	background: #F4F4F4
+}
+.mod-fabric ul.zebra > li, .mod-fabric table.zebra tbody td {
+	border-bottom: 1px solid #3C3C3C
+}
+.mod-fabric ul.zebra > li:first-child, .mod-fabric table.zebra tbody tr:first-child td {
+	border-top: 1px solid #3C3C3C
+}
+.mod-fabric ul.zebra > li.odd, .mod-fabric table.zebra tbody tr.odd {
+	background: #494949
+}
+.mod-fabric ul.zebra > li:nth-of-type(odd), .mod-fabric table.zebra tbody tr:nth-of-type(odd) {
+	background: #494949
+}
+table.zebra caption {
+	color: #999
+}
+
+table.text_left th, table.text_left td {
+	text-align:left!important;
+}
+
+table.text_left td *{
+	text-align:left!important;
+	vertical-align:top!important;
+}
+
+.center{
+	text-align:center!important;
+	width:100%;
+}
+table.text_left td label label {
+	padding:0 0 0 10px;
+}
+/*table.historico tbody td:nth-child(1),table.historico tbody td:nth-child(2),table.historico tbody td:nth-child(3),table.historico tbody td:nth-child(4) {
+    background:#fff;
+    padding:2px;
+    position: fixed;
+    z-index:10;
+}
+table.historico tbody td:nth-child(1){
+    left:17px;
+    padding:7px;
+    width:70px
+}
+
+table.historico tbody td:nth-child(2){
+    left:100px;
+}
+
+table.historico tbody td:nth-child(3){
+    left:180px;
+}
+
+table.historico tbody td:nth-child(4){
+    left:260px;
+}
+*/table.zebra tbody td:first-child{
+border-left: 1px solid #DDD;
+}
+.semaforo{
+	-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+}
+.tabalaauto {
+float: none!important;
+width: auto!important;
+margin: 0 20px 0 0!important;
+display: inline-block;
+vertical-align: top;
+}
+.tamanoigual{
+	height: 305px;
+	overflow-y: scroll;
+}
+
+.calculadora{
+width: 530px;
+	text-align:center; 
+margin: 10px 0 0;
+}
+.campo_calculo{
+width: 400px;
+display:inline-block;
+vertical-align:middle;
+height: 60px;
+}
+.bt_guardar{
+width: 400px;
+display:inline-block;
+vertical-align:middle;
+margin: 10px 0;
+}
+#divEscenarios{
+	text-align:center; 
+	margin: 0 0 10px;
+}
+
+#divEscenarios button{
+	width:30%;
+	display:inline-block;
+}
+
+#divPerj{
+    display: inline-block;
+}
+
+.bloqueNum{
+    display: inline-block;
+    text-align: right;
+    width: 312px;
+    vertical-align: top;
+}
+#divPer{
+}
+#divOpe{
+}
+#divNumeros{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 20px;
+}
+#perin{
+	width:100%;
+}
+.campos-buscador {
+display: inline-block;
+margin: 46px auto!important;
+width: 100%;
+}
+.labels {
+width: 160px;
+display: inline-block;
+margin: 5px 0;
+font-size: 14px;
+text-align: right;
+}
+.listas {
+width: 300px;
+margin: 5px 0;
+display: inline-block;
+}
+.RadGrid_Telerik {
+border:none!important;
+}
+.nyroModalCont {
+padding: 10px!important;
+}
+#chklEscenarios td label label a{
+	float:right;
+	width:20px;
+	height:20px;
+	background:url(calcular.png) no-repeat top left;
+	text-indent: -9999px;
+	margin: 3px;
+}
+#chklEscenarios td {
+	line-height:26px;
+}
+#chklEscenarios td input{
+	margin:7px 5px!important;
+}
+
+ table.td50 {
+	min-width:300px;
+} table.td50 tbody tr td {
+	width:50%;
+	text-align:left;
+}
+
+table.td50 tbody tr td .listas-exportar{
+	width:100%!important;
+}
+

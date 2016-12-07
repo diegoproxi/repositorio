@@ -1,0 +1,594 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   About.aspx
+#	new file:   About.aspx.cs
+#	new file:   Account/ChangePassword.aspx
+#	new file:   Account/ChangePassword.aspx.cs
+#	new file:   Account/ChangePasswordSuccess.aspx
+#	new file:   Account/ChangePasswordSuccess.aspx.cs
+#	new file:   Account/Login.aspx
+#	new file:   Account/Login.aspx.cs
+#	new file:   Account/Register.aspx
+#	new file:   Account/Register.aspx.cs
+#	new file:   Account/Web.config
+#	new file:   Administracion/Auditoria.aspx
+#	new file:   Administracion/Auditoria.aspx.cs
+#	new file:   Administracion/Campos.aspx
+#	new file:   Administracion/Campos.aspx.cs
+#	new file:   Administracion/ConfigurarIndicadores.aspx
+#	new file:   Administracion/ConfigurarIndicadores.aspx.cs
+#	new file:   Administracion/Diccionarios.aspx
+#	new file:   Administracion/Diccionarios.aspx.cs
+#	new file:   Administracion/EditConfiguracion.aspx
+#	new file:   Administracion/EditConfiguracion.aspx.cs
+#	new file:   Administracion/EditDiccionario.aspx
+#	new file:   Administracion/EditDiccionario.aspx.cs
+#	new file:   Administracion/EditEscenario.aspx
+#	new file:   Administracion/EditEscenario.aspx.cs
+#	new file:   Administracion/Items.aspx
+#	new file:   Administracion/Items.aspx.cs
+#	new file:   Administracion/Listas.aspx
+#	new file:   Administracion/Listas.aspx.cs
+#	new file:   Administracion/Notificaciones.aspx
+#	new file:   Administracion/Notificaciones.aspx.cs
+#	new file:   Administracion/Nueva_notificacion.aspx
+#	new file:   Administracion/Nueva_notificacion.aspx.cs
+#	new file:   Administracion/Nuevo_Campo.aspx
+#	new file:   Administracion/Nuevo_Campo.aspx.cs
+#	new file:   Administracion/Papelera.aspx
+#	new file:   Administracion/Papelera.aspx.cs
+#	new file:   Administracion/Usuarios.aspx
+#	new file:   Administracion/Usuarios.aspx.cs
+#	new file:   Administracion/comodines.aspx
+#	new file:   Administracion/comodines.aspx.cs
+#	new file:   Administracion/configuraciones.aspx
+#	new file:   Administracion/configuraciones.aspx.cs
+#	new file:   Administracion/escenarios.aspx
+#	new file:   Administracion/escenarios.aspx.cs
+#	new file:   App_Code/DSRepositorioIndicadores.xsd
+#	new file:   App_Code/DSRepositorioIndicadores.xss
+#	new file:   App_Code/Util/Utils.cs
+#	new file:   App_Code/VO/CampoVO.cs
+#	new file:   App_Code/VO/CategoriaVO.cs
+#	new file:   App_GlobalResources/RadGrid.Main.resx
+#	new file:   Bin/AjaxControlToolkit.dll
+#	new file:   Bin/AjaxControlToolkit.dll.refresh
+#	new file:   Bin/DotNetNuke.dll
+#	new file:   Bin/DotNetNuke.dll.refresh
+#	new file:   Bin/Telerik.Web.UI.Skins.dll
+#	new file:   Bin/Telerik.Web.UI.Skins.dll.refresh
+#	new file:   Bin/Telerik.Web.UI.dll
+#	new file:   Bin/Telerik.Web.UI.dll.refresh
+#	new file:   Bin/Telerik.Web.UI.xml
+#	new file:   Bin/itextsharp.dll
+#	new file:   Bin/itextsharp.dll.refresh
+#	new file:   Buscador.aspx
+#	new file:   Buscador.aspx.cs
+#	new file:   Calculadora.aspx
+#	new file:   Calculadora.aspx.cs
+#	new file:   Categorias/AgregarFechaLimite.aspx
+#	new file:   Categorias/AgregarFechaLimite.aspx.cs
+#	new file:   Categorias/Atributos.aspx
+#	new file:   Categorias/Atributos.aspx.cs
+#	new file:   Categorias/Crear.aspx
+#	new file:   Categorias/Crear.aspx.cs
+#	new file:   Categorias/Escenarios.aspx
+#	new file:   Categorias/Escenarios.aspx.cs
+#	new file:   Categorias/FechasLimite.aspx
+#	new file:   Categorias/FechasLimite.aspx.cs
+#	new file:   Categorias/GruposUsuarios.aspx
+#	new file:   Categorias/GruposUsuarios.aspx.cs
+#	new file:   Categorias/Permisos.aspx
+#	new file:   Categorias/Permisos.aspx.cs
+#	new file:   Default.aspx
+#	new file:   Default.aspx.cs
+#	new file:   Descargas.aspx
+#	new file:   Descargas.aspx.cs
+#	new file:   Exportar.aspx
+#	new file:   Exportar.aspx.cs
+#	new file:   GenerarExportacion.aspx
+#	new file:   GenerarExportacion.aspx.cs
+#	new file:   Global.asax
+#	new file:   Indicadores/Actualizar.aspx
+#	new file:   Indicadores/Actualizar.aspx.cs
+#	new file:   Indicadores/CargaMasiva.aspx
+#	new file:   Indicadores/CargaMasiva.aspx.cs
+#	new file:   Indicadores/Cargues.aspx
+#	new file:   Indicadores/Cargues.aspx.cs
+#	new file:   Indicadores/Crear.aspx
+#	new file:   Indicadores/Crear.aspx.cs
+#	new file:   Indicadores/CuadroResumen.aspx
+#	new file:   Indicadores/CuadroResumen.aspx.cs
+#	new file:   Indicadores/CuadroResumen2.aspx
+#	new file:   Indicadores/EditAtributo.aspx
+#	new file:   Indicadores/EditAtributo.aspx.cs
+#	new file:   Indicadores/HTMLPage.htm
+#	new file:   Indicadores/PanelControl.aspx
+#	new file:   Indicadores/PanelControl.aspx.cs
+#	new file:   Indicadores/PanelControl2.aspx
+#	new file:   Indicadores/PanelControl2.aspx.cs
+#	new file:   Indicadores/ResultadoCargue.aspx
+#	new file:   Indicadores/ResultadoCargue.aspx.cs
+#	new file:   accordion/accordion-final.html
+#	new file:   accordion/accordion-markup-simple.html
+#	new file:   accordion/accordion-unstyled.html
+#	new file:   accordion/css/accordion.css
+#	new file:   accordion/css/accordion_glam.css
+#	new file:   accordion/img/logo.gif
+#	new file:   accordion/img/off.jpg
+#	new file:   accordion/img/on.jpg
+#	new file:   accordion/img/over.jpg
+#	new file:   accordion/js/accordion.js
+#	new file:   accordion/js/builder.js
+#	new file:   accordion/js/controls.js
+#	new file:   accordion/js/dragdrop.js
+#	new file:   accordion/js/effects.js
+#	new file:   accordion/js/prototype.js
+#	new file:   accordion/js/scriptaculous.js
+#	new file:   accordion/js/slider.js
+#	new file:   accordion/js/sound.js
+#	new file:   calcular.png
+#	new file:   calendar/css/border-radius.css
+#	new file:   calendar/css/gold/brushed-steel.jpg
+#	new file:   calendar/css/gold/coolbg.png
+#	new file:   calendar/css/gold/gold.css
+#	new file:   calendar/css/gold/gold.jpg
+#	new file:   calendar/css/img/cool-bg-hard-inv.png
+#	new file:   calendar/css/img/cool-bg-hard.png
+#	new file:   calendar/css/img/cool-bg-inv.png
+#	new file:   calendar/css/img/cool-bg.png
+#	new file:   calendar/css/img/drop-down.gif
+#	new file:   calendar/css/img/drop-up.gif
+#	new file:   calendar/css/img/nav-left-x2.gif
+#	new file:   calendar/css/img/nav-left.gif
+#	new file:   calendar/css/img/nav-right-x2.gif
+#	new file:   calendar/css/img/nav-right.gif
+#	new file:   calendar/css/img/time-down.png
+#	new file:   calendar/css/img/time-up.png
+#	new file:   calendar/css/jscal2.css
+#	new file:   calendar/css/matrix/matrix.css
+#	new file:   calendar/css/matrix/nav-left-x2.gif
+#	new file:   calendar/css/matrix/nav-left.gif
+#	new file:   calendar/css/matrix/nav-right-x2.gif
+#	new file:   calendar/css/matrix/nav-right.gif
+#	new file:   calendar/css/reduce-spacing.css
+#	new file:   calendar/css/shadow-b.png
+#	new file:   calendar/css/steel/brushed-steel.jpg
+#	new file:   calendar/css/steel/brushed-steel.png
+#	new file:   calendar/css/steel/coolbg.png
+#	new file:   calendar/css/steel/steel.css
+#	new file:   calendar/css/steel/steel.jpg
+#	new file:   calendar/css/win2k/win2k.css
+#	new file:   calendar/js/es.js
+#	new file:   calendar/js/jscal2.js
+#	new file:   calendar/js/lang/ca.js
+#	new file:   calendar/js/lang/cn.js
+#	new file:   calendar/js/lang/cz.js
+#	new file:   calendar/js/lang/de.js
+#	new file:   calendar/js/lang/en.js
+#	new file:   calendar/js/lang/es.js
+#	new file:   calendar/js/lang/fr.js
+#	new file:   calendar/js/lang/hr.js
+#	new file:   calendar/js/lang/it.js
+#	new file:   calendar/js/lang/jp.js
+#	new file:   calendar/js/lang/nl.js
+#	new file:   calendar/js/lang/pl.js
+#	new file:   calendar/js/lang/pt.js
+#	new file:   calendar/js/lang/ro.js
+#	new file:   calendar/js/lang/ru.js
+#	new file:   calendar/js/lang/sk.js
+#	new file:   calendar/js/lang/sv.js
+#	new file:   calendar/js/unicode-letter.js
+#	new file:   cargues/1373BD Indicadores Gasto (1).xls
+#	new file:   cargues/15BD Prueba.xls
+#	new file:   cargues/1864BD Prueba.xls
+#	new file:   cargues/2120BD Indicadores Gasto (1).xls
+#	new file:   cargues/2313BD Indicadores Gasto (1).xls
+#	new file:   cargues/2385BD Indicadores Gasto (1).xls
+#	new file:   cargues/2502BD Prueba.xls
+#	new file:   cargues/2885BD Indicadores Gasto (1).xls
+#	new file:   cargues/3189BD Indicadores Gasto (1).xls
+#	new file:   cargues/3405BD Prueba.xls
+#	new file:   cargues/3532BD Indicadores Gasto (1).xls
+#	new file:   cargues/356BD Indicadores Gasto (1).xls
+#	new file:   cargues/3752BD Indicadores Gasto (1).xls
+#	new file:   cargues/3766BD Indicadores Gasto (1).xls
+#	new file:   cargues/4075BD Indicadores Gasto (1).xls
+#	new file:   cargues/4521BD Indicadores Gasto (1).xls
+#	new file:   cargues/4570BD Indicadores Gasto (1).xls
+#	new file:   cargues/4599BD Indicadores Gasto (1).xls
+#	new file:   cargues/4726BD Indicadores Gasto (1).xls
+#	new file:   cargues/4867BD Indicadores Gasto (1).xls
+#	new file:   cargues/4897BD Indicadores Gasto (1).xls
+#	new file:   cargues/4990BD Prueba.xls
+#	new file:   cargues/5485BD Indicadores Gasto (1).xls
+#	new file:   cargues/5564BD Prueba.xls
+#	new file:   cargues/6010BD Prueba.xls
+#	new file:   cargues/6113BD Indicadores Gasto (1).xls
+#	new file:   cargues/6406BD Indicadores Gasto (1).xls
+#	new file:   cargues/6629BD Indicadores Gasto (1).xls
+#	new file:   cargues/6905BD Indicadores Gasto (1).xls
+#	new file:   cargues/70BD Indicadores Gasto (1).xls
+#	new file:   cargues/7314BD Indicadores Gasto (1).xls
+#	new file:   cargues/7440BD Indicadores Gasto (1).xls
+#	new file:   cargues/7513BD Indicadores Gasto (1).xls
+#	new file:   cargues/7658BD Indicadores Gasto (1).xls
+#	new file:   cargues/7991BD Prueba.xls
+#	new file:   cargues/8178BD Indicadores Gasto (1).xls
+#	new file:   "cargues/84042_directorio telef\303\263nico.xlsx"
+#	new file:   cargues/886BD Prueba.xls
+#	new file:   cargues/9322BD Prueba.xls
+#	new file:   cargues/9601BD Indicadores Gasto (1).xls
+#	new file:   cargues/9634BD Indicadores Gasto (1).xls
+#	new file:   cargues/9896BD Indicadores Gasto (1).xls
+#	new file:   cerrar.htm
+#	new file:   estilos/buscador.css
+#	new file:   estilos/exportar.css
+#	new file:   estilos/global.css
+#	new file:   estilos/grid.css
+#	new file:   estilos/images/edit.png
+#	new file:   estilos/images/search.png
+#	new file:   estilos/images/send.png
+#	new file:   estilos/images/ui-bg_diagonals-small_100_e7e7e7_40x40.png
+#	new file:   estilos/images/ui-bg_flat_0_aaaaaa_40x100.png
+#	new file:   estilos/images/ui-bg_flat_75_ffffff_40x100.png
+#	new file:   estilos/images/ui-bg_glass_55_dceece_1x400.png
+#	new file:   estilos/images/ui-bg_glass_65_ffffff_1x400.png
+#	new file:   estilos/images/ui-bg_glass_75_fcd354_1x400.png
+#	new file:   estilos/images/ui-bg_glass_95_fef1ec_1x400.png
+#	new file:   estilos/images/ui-bg_highlight-hard_75_f2810d_1x100.png
+#	new file:   estilos/images/ui-icons_000000_256x240.png
+#	new file:   estilos/images/ui-icons_01720c_256x240.png
+#	new file:   estilos/images/ui-icons_0b9450_256x240.png
+#	new file:   estilos/images/ui-icons_5e5e5e_256x240.png
+#	new file:   estilos/images/ui-icons_cd0a0a_256x240.png
+#	new file:   estilos/images/ui-icons_ffffff_256x240.png
+#	new file:   estilos_iniciales.css
+#	new file:   images/edit24.png
+#	new file:   images/loading.gif
+#	new file:   images/uncheck.png
+#	new file:   jquery-easyui/changelog.txt
+#	new file:   jquery-easyui/demo/accordion.html
+#	new file:   jquery-easyui/demo/calendar.html
+#	new file:   jquery-easyui/demo/combo.html
+#	new file:   jquery-easyui/demo/combobox.html
+#	new file:   jquery-easyui/demo/combobox_data.json
+#	new file:   jquery-easyui/demo/combogrid.html
+#	new file:   jquery-easyui/demo/combotree.html
+#	new file:   jquery-easyui/demo/datagrid.html
+#	new file:   jquery-easyui/demo/datagrid2.html
+#	new file:   jquery-easyui/demo/datagrid3.html
+#	new file:   jquery-easyui/demo/datagrid4.html
+#	new file:   jquery-easyui/demo/datagrid5.html
+#	new file:   jquery-easyui/demo/datagrid_data.json
+#	new file:   jquery-easyui/demo/datagrid_data2.json
+#	new file:   jquery-easyui/demo/datagrid_data3.json
+#	new file:   jquery-easyui/demo/datebox.html
+#	new file:   jquery-easyui/demo/datetimebox.html
+#	new file:   jquery-easyui/demo/demo.css
+#	new file:   jquery-easyui/demo/dialog.html
+#	new file:   jquery-easyui/demo/draggable.html
+#	new file:   jquery-easyui/demo/droppable.html
+#	new file:   jquery-easyui/demo/droppable1.html
+#	new file:   jquery-easyui/demo/droppable2.html
+#	new file:   jquery-easyui/demo/easyloader.html
+#	new file:   jquery-easyui/demo/form.html
+#	new file:   jquery-easyui/demo/form_data.json
+#	new file:   jquery-easyui/demo/layout.html
+#	new file:   jquery-easyui/demo/layout1.html
+#	new file:   jquery-easyui/demo/layout2.html
+#	new file:   jquery-easyui/demo/linkbutton.html
+#	new file:   jquery-easyui/demo/menu.html
+#	new file:   jquery-easyui/demo/menubutton.html
+#	new file:   jquery-easyui/demo/messager.html
+#	new file:   jquery-easyui/demo/numberbox.html
+#	new file:   jquery-easyui/demo/numberbox2.html
+#	new file:   jquery-easyui/demo/numberspinner.html
+#	new file:   jquery-easyui/demo/pagination.html
+#	new file:   jquery-easyui/demo/panel.html
+#	new file:   jquery-easyui/demo/panel2.html
+#	new file:   jquery-easyui/demo/progressbar.html
+#	new file:   jquery-easyui/demo/propertygrid.html
+#	new file:   jquery-easyui/demo/propertygrid_data.json
+#	new file:   jquery-easyui/demo/resizable.html
+#	new file:   jquery-easyui/demo/searchbox.html
+#	new file:   jquery-easyui/demo/slider.html
+#	new file:   jquery-easyui/demo/splitbutton.html
+#	new file:   jquery-easyui/demo/tabs.html
+#	new file:   jquery-easyui/demo/tabs_href_test.html
+#	new file:   jquery-easyui/demo/timespinner.html
+#	new file:   jquery-easyui/demo/tree.html
+#	new file:   jquery-easyui/demo/tree2.html
+#	new file:   jquery-easyui/demo/tree_data.json
+#	new file:   jquery-easyui/demo/treegrid.html
+#	new file:   jquery-easyui/demo/treegrid2.html
+#	new file:   jquery-easyui/demo/treegrid3.html
+#	new file:   jquery-easyui/demo/treegrid_data.json
+#	new file:   jquery-easyui/demo/treegrid_data2.json
+#	new file:   jquery-easyui/demo/treegrid_data3.json
+#	new file:   jquery-easyui/demo/treegrid_subdata.json
+#	new file:   jquery-easyui/demo/validatebox.html
+#	new file:   jquery-easyui/demo/window.html
+#	new file:   jquery-easyui/easyloader.js
+#	new file:   jquery-easyui/jquery-1.8.0.min.js
+#	new file:   jquery-easyui/jquery.easyui.min.js
+#	new file:   jquery-easyui/licence_gpl.txt
+#	new file:   jquery-easyui/license_commercial.txt
+#	new file:   jquery-easyui/locale/easyui-lang-af.js
+#	new file:   jquery-easyui/locale/easyui-lang-bg.js
+#	new file:   jquery-easyui/locale/easyui-lang-ca.js
+#	new file:   jquery-easyui/locale/easyui-lang-cs.js
+#	new file:   jquery-easyui/locale/easyui-lang-cz.js
+#	new file:   jquery-easyui/locale/easyui-lang-da.js
+#	new file:   jquery-easyui/locale/easyui-lang-de.js
+#	new file:   jquery-easyui/locale/easyui-lang-en.js
+#	new file:   jquery-easyui/locale/easyui-lang-es.js
+#	new file:   jquery-easyui/locale/easyui-lang-fr.js
+#	new file:   jquery-easyui/locale/easyui-lang-it.js
+#	new file:   jquery-easyui/locale/easyui-lang-nl.js
+#	new file:   jquery-easyui/locale/easyui-lang-pt_BR.js
+#	new file:   jquery-easyui/locale/easyui-lang-ru.js
+#	new file:   jquery-easyui/locale/easyui-lang-tr.js
+#	new file:   jquery-easyui/locale/easyui-lang-zh_TW.js
+#	new file:   jquery-easyui/locale/easyui-lang-zh_cn.js
+#	new file:   jquery-easyui/plugins/jquery.accordion.js
+#	new file:   jquery-easyui/plugins/jquery.calendar.js
+#	new file:   jquery-easyui/plugins/jquery.combo.js
+#	new file:   jquery-easyui/plugins/jquery.combobox.js
+#	new file:   jquery-easyui/plugins/jquery.combogrid.js
+#	new file:   jquery-easyui/plugins/jquery.combotree.js
+#	new file:   jquery-easyui/plugins/jquery.datagrid.js
+#	new file:   jquery-easyui/plugins/jquery.datebox.js
+#	new file:   jquery-easyui/plugins/jquery.datetimebox.js
+#	new file:   jquery-easyui/plugins/jquery.dialog.js
+#	new file:   jquery-easyui/plugins/jquery.draggable.js
+#	new file:   jquery-easyui/plugins/jquery.droppable.js
+#	new file:   jquery-easyui/plugins/jquery.form.js
+#	new file:   jquery-easyui/plugins/jquery.layout.js
+#	new file:   jquery-easyui/plugins/jquery.linkbutton.js
+#	new file:   jquery-easyui/plugins/jquery.menu.js
+#	new file:   jquery-easyui/plugins/jquery.menubutton.js
+#	new file:   jquery-easyui/plugins/jquery.messager.js
+#	new file:   jquery-easyui/plugins/jquery.numberbox.js
+#	new file:   jquery-easyui/plugins/jquery.numberspinner.js
+#	new file:   jquery-easyui/plugins/jquery.pagination.js
+#	new file:   jquery-easyui/plugins/jquery.panel.js
+#	new file:   jquery-easyui/plugins/jquery.parser.js
+#	new file:   jquery-easyui/plugins/jquery.progressbar.js
+#	new file:   jquery-easyui/plugins/jquery.propertygrid.js
+#	new file:   jquery-easyui/plugins/jquery.resizable.js
+#	new file:   jquery-easyui/plugins/jquery.searchbox.js
+#	new file:   jquery-easyui/plugins/jquery.slider.js
+#	new file:   jquery-easyui/plugins/jquery.spinner.js
+#	new file:   jquery-easyui/plugins/jquery.splitbutton.js
+#	new file:   jquery-easyui/plugins/jquery.tabs.js
+#	new file:   jquery-easyui/plugins/jquery.timespinner.js
+#	new file:   jquery-easyui/plugins/jquery.tree.js
+#	new file:   jquery-easyui/plugins/jquery.treegrid.js
+#	new file:   jquery-easyui/plugins/jquery.validatebox.js
+#	new file:   jquery-easyui/plugins/jquery.window.js
+#	new file:   jquery-easyui/readme.txt
+#	new file:   jquery-easyui/src/easyloader.js
+#	new file:   jquery-easyui/src/jquery.accordion.js
+#	new file:   jquery-easyui/src/jquery.calendar.js
+#	new file:   jquery-easyui/src/jquery.combobox.js
+#	new file:   jquery-easyui/src/jquery.datebox.js
+#	new file:   jquery-easyui/src/jquery.draggable.js
+#	new file:   jquery-easyui/src/jquery.droppable.js
+#	new file:   jquery-easyui/src/jquery.form.js
+#	new file:   jquery-easyui/src/jquery.linkbutton.js
+#	new file:   jquery-easyui/src/jquery.menu.js
+#	new file:   jquery-easyui/src/jquery.parser.js
+#	new file:   jquery-easyui/src/jquery.progressbar.js
+#	new file:   jquery-easyui/src/jquery.propertygrid.js
+#	new file:   jquery-easyui/src/jquery.resizable.js
+#	new file:   jquery-easyui/src/jquery.slider.js
+#	new file:   jquery-easyui/src/jquery.tabs.js
+#	new file:   jquery-easyui/src/jquery.window.js
+#	new file:   jquery-easyui/themes/default/accordion.css
+#	new file:   jquery-easyui/themes/default/calendar.css
+#	new file:   jquery-easyui/themes/default/combo.css
+#	new file:   jquery-easyui/themes/default/combobox.css
+#	new file:   jquery-easyui/themes/default/datagrid.css
+#	new file:   jquery-easyui/themes/default/datebox.css
+#	new file:   jquery-easyui/themes/default/dialog.css
+#	new file:   jquery-easyui/themes/default/easyui.css
+#	new file:   jquery-easyui/themes/default/images/accordion_collapse.png
+#	new file:   jquery-easyui/themes/default/images/accordion_expand.png
+#	new file:   jquery-easyui/themes/default/images/blank.gif
+#	new file:   jquery-easyui/themes/default/images/button_a_bg.gif
+#	new file:   jquery-easyui/themes/default/images/button_plain_hover.png
+#	new file:   jquery-easyui/themes/default/images/button_span_bg.gif
+#	new file:   jquery-easyui/themes/default/images/calendar_nextmonth.gif
+#	new file:   jquery-easyui/themes/default/images/calendar_nextyear.gif
+#	new file:   jquery-easyui/themes/default/images/calendar_prevmonth.gif
+#	new file:   jquery-easyui/themes/default/images/calendar_prevyear.gif
+#	new file:   jquery-easyui/themes/default/images/combo_arrow.gif
+#	new file:   jquery-easyui/themes/default/images/datagrid_header_bg.gif
+#	new file:   jquery-easyui/themes/default/images/datagrid_row_collapse.gif
+#	new file:   jquery-easyui/themes/default/images/datagrid_row_expand.gif
+#	new file:   jquery-easyui/themes/default/images/datagrid_sort_asc.gif
+#	new file:   jquery-easyui/themes/default/images/datagrid_sort_desc.gif
+#	new file:   jquery-easyui/themes/default/images/datagrid_title_bg.png
+#	new file:   jquery-easyui/themes/default/images/datebox_arrow.png
+#	new file:   jquery-easyui/themes/default/images/layout_arrows.png
+#	new file:   jquery-easyui/themes/default/images/menu.gif
+#	new file:   jquery-easyui/themes/default/images/menu_downarrow.png
+#	new file:   jquery-easyui/themes/default/images/menu_rightarrow.png
+#	new file:   jquery-easyui/themes/default/images/menu_sep.png
+#	new file:   jquery-easyui/themes/default/images/menu_split_downarrow.png
+#	new file:   jquery-easyui/themes/default/images/messager_error.gif
+#	new file:   jquery-easyui/themes/default/images/messager_info.gif
+#	new file:   jquery-easyui/themes/default/images/messager_question.gif
+#	new file:   jquery-easyui/themes/default/images/messager_question.png
+#	new file:   jquery-easyui/themes/default/images/messager_warning.gif
+#	new file:   jquery-easyui/themes/default/images/pagination_first.gif
+#	new file:   jquery-easyui/themes/default/images/pagination_last.gif
+#	new file:   jquery-easyui/themes/default/images/pagination_load.png
+#	new file:   jquery-easyui/themes/default/images/pagination_loading.gif
+#	new file:   jquery-easyui/themes/default/images/pagination_next.gif
+#	new file:   jquery-easyui/themes/default/images/pagination_prev.gif
+#	new file:   jquery-easyui/themes/default/images/panel_loading.gif
+#	new file:   jquery-easyui/themes/default/images/panel_title.png
+#	new file:   jquery-easyui/themes/default/images/panel_tools.gif
+#	new file:   jquery-easyui/themes/default/images/searchbox_button.png
+#	new file:   jquery-easyui/themes/default/images/slider_handle.png
+#	new file:   jquery-easyui/themes/default/images/spinner_arrow_down.gif
+#	new file:   jquery-easyui/themes/default/images/spinner_arrow_up.gif
+#	new file:   jquery-easyui/themes/default/images/tabs_active.png
+#	new file:   jquery-easyui/themes/default/images/tabs_close.gif
+#	new file:   jquery-easyui/themes/default/images/tabs_enabled.png
+#	new file:   jquery-easyui/themes/default/images/tabs_leftarrow.png
+#	new file:   jquery-easyui/themes/default/images/tabs_rightarrow.png
+#	new file:   jquery-easyui/themes/default/images/tree_arrows.gif
+#	new file:   jquery-easyui/themes/default/images/tree_checkbox_0.gif
+#	new file:   jquery-easyui/themes/default/images/tree_checkbox_1.gif
+#	new file:   jquery-easyui/themes/default/images/tree_checkbox_2.gif
+#	new file:   jquery-easyui/themes/default/images/tree_dnd_no.png
+#	new file:   jquery-easyui/themes/default/images/tree_dnd_yes.png
+#	new file:   jquery-easyui/themes/default/images/tree_elbow.png
+#	new file:   jquery-easyui/themes/default/images/tree_file.gif
+#	new file:   jquery-easyui/themes/default/images/tree_folder.gif
+#	new file:   jquery-easyui/themes/default/images/tree_folder_open.gif
+#	new file:   jquery-easyui/themes/default/images/tree_loading.gif
+#	new file:   jquery-easyui/themes/default/images/ui-bg_diagonals-small_100_e7e7e7_40x40.png
+#	new file:   jquery-easyui/themes/default/images/ui-bg_flat_0_aaaaaa_40x100.png
+#	new file:   jquery-easyui/themes/default/images/ui-bg_flat_75_ffffff_40x100.png
+#	new file:   jquery-easyui/themes/default/images/ui-bg_glass_55_dceece_1x400.png
+#	new file:   jquery-easyui/themes/default/images/ui-bg_glass_65_ffffff_1x400.png
+#	new file:   jquery-easyui/themes/default/images/ui-bg_glass_75_fcd354_1x400.png
+#	new file:   jquery-easyui/themes/default/images/ui-bg_glass_95_fef1ec_1x400.png
+#	new file:   jquery-easyui/themes/default/images/ui-bg_highlight-hard_75_f2810d_1x100.png
+#	new file:   jquery-easyui/themes/default/images/ui-icons_000000_256x240.png
+#	new file:   jquery-easyui/themes/default/images/ui-icons_01720c_256x240.png
+#	new file:   jquery-easyui/themes/default/images/ui-icons_0b9450_256x240.png
+#	new file:   jquery-easyui/themes/default/images/ui-icons_5e5e5e_256x240.png
+#	new file:   jquery-easyui/themes/default/images/ui-icons_cd0a0a_256x240.png
+#	new file:   jquery-easyui/themes/default/images/ui-icons_ffffff_256x240.png
+#	new file:   jquery-easyui/themes/default/images/validatebox_pointer.gif
+#	new file:   jquery-easyui/themes/default/images/validatebox_warning.png
+#	new file:   jquery-easyui/themes/default/layout.css
+#	new file:   jquery-easyui/themes/default/linkbutton.css
+#	new file:   jquery-easyui/themes/default/menu.css
+#	new file:   jquery-easyui/themes/default/menubutton.css
+#	new file:   jquery-easyui/themes/default/messager.css
+#	new file:   jquery-easyui/themes/default/pagination.css
+#	new file:   jquery-easyui/themes/default/panel.css
+#	new file:   jquery-easyui/themes/default/progressbar.css
+#	new file:   jquery-easyui/themes/default/propertygrid.css
+#	new file:   jquery-easyui/themes/default/searchbox.css
+#	new file:   jquery-easyui/themes/default/slider.css
+#	new file:   jquery-easyui/themes/default/spinner.css
+#	new file:   jquery-easyui/themes/default/splitbutton.css
+#	new file:   jquery-easyui/themes/default/tabs.css
+#	new file:   jquery-easyui/themes/default/tree.css
+#	new file:   jquery-easyui/themes/default/validatebox.css
+#	new file:   jquery-easyui/themes/default/window.css
+#	new file:   jquery-easyui/themes/gray/accordion.css
+#	new file:   jquery-easyui/themes/gray/calendar.css
+#	new file:   jquery-easyui/themes/gray/combo.css
+#	new file:   jquery-easyui/themes/gray/combobox.css
+#	new file:   jquery-easyui/themes/gray/datagrid.css
+#	new file:   jquery-easyui/themes/gray/datebox.css
+#	new file:   jquery-easyui/themes/gray/dialog.css
+#	new file:   jquery-easyui/themes/gray/easyui.css
+#	new file:   jquery-easyui/themes/gray/images/accordion_collapse.png
+#	new file:   jquery-easyui/themes/gray/images/accordion_expand.png
+#	new file:   jquery-easyui/themes/gray/images/blank.gif
+#	new file:   jquery-easyui/themes/gray/images/button_a_bg.gif
+#	new file:   jquery-easyui/themes/gray/images/button_plain_hover.png
+#	new file:   jquery-easyui/themes/gray/images/button_span_bg.gif
+#	new file:   jquery-easyui/themes/gray/images/calendar_nextmonth.gif
+#	new file:   jquery-easyui/themes/gray/images/calendar_nextyear.gif
+#	new file:   jquery-easyui/themes/gray/images/calendar_prevmonth.gif
+#	new file:   jquery-easyui/themes/gray/images/calendar_prevyear.gif
+#	new file:   jquery-easyui/themes/gray/images/combo_arrow.gif
+#	new file:   jquery-easyui/themes/gray/images/datagrid_header_bg.gif
+#	new file:   jquery-easyui/themes/gray/images/datagrid_row_collapse.gif
+#	new file:   jquery-easyui/themes/gray/images/datagrid_row_expand.gif
+#	new file:   jquery-easyui/themes/gray/images/datagrid_sort_asc.gif
+#	new file:   jquery-easyui/themes/gray/images/datagrid_sort_desc.gif
+#	new file:   jquery-easyui/themes/gray/images/datagrid_title_bg.gif
+#	new file:   jquery-easyui/themes/gray/images/datebox_arrow.png
+#	new file:   jquery-easyui/themes/gray/images/layout_arrows.png
+#	new file:   jquery-easyui/themes/gray/images/menu.gif
+#	new file:   jquery-easyui/themes/gray/images/menu_downarrow.png
+#	new file:   jquery-easyui/themes/gray/images/menu_rightarrow.png
+#	new file:   jquery-easyui/themes/gray/images/menu_sep.png
+#
+# Untracked files:
+#	RadControls/
+#	Scripts/
+#	Site.master
+#	Site.master.cs
+#	Styles/
+#	Web.config
+#	WebUserControl.ascx
+#	WebUserControl.ascx.cs
+#	jquery-easyui/themes/gray/images/menu_split_downarrow.png
+#	jquery-easyui/themes/gray/images/messager_error.gif
+#	jquery-easyui/themes/gray/images/messager_info.gif
+#	jquery-easyui/themes/gray/images/messager_question.gif
+#	jquery-easyui/themes/gray/images/messager_warning.gif
+#	jquery-easyui/themes/gray/images/pagination_first.gif
+#	jquery-easyui/themes/gray/images/pagination_last.gif
+#	jquery-easyui/themes/gray/images/pagination_load.png
+#	jquery-easyui/themes/gray/images/pagination_loading.gif
+#	jquery-easyui/themes/gray/images/pagination_next.gif
+#	jquery-easyui/themes/gray/images/pagination_prev.gif
+#	jquery-easyui/themes/gray/images/panel_loading.gif
+#	jquery-easyui/themes/gray/images/panel_title.gif
+#	jquery-easyui/themes/gray/images/panel_tools.gif
+#	jquery-easyui/themes/gray/images/searchbox_button.png
+#	jquery-easyui/themes/gray/images/slider_handle.png
+#	jquery-easyui/themes/gray/images/spinner_arrow_down.gif
+#	jquery-easyui/themes/gray/images/spinner_arrow_up.gif
+#	jquery-easyui/themes/gray/images/tabs_close.gif
+#	jquery-easyui/themes/gray/images/tabs_enabled.gif
+#	jquery-easyui/themes/gray/images/tabs_leftarrow.png
+#	jquery-easyui/themes/gray/images/tabs_rightarrow.png
+#	jquery-easyui/themes/gray/images/tree_arrows.gif
+#	jquery-easyui/themes/gray/images/tree_checkbox_0.gif
+#	jquery-easyui/themes/gray/images/tree_checkbox_1.gif
+#	jquery-easyui/themes/gray/images/tree_checkbox_2.gif
+#	jquery-easyui/themes/gray/images/tree_dnd_no.png
+#	jquery-easyui/themes/gray/images/tree_dnd_yes.png
+#	jquery-easyui/themes/gray/images/tree_elbow.png
+#	jquery-easyui/themes/gray/images/tree_file.gif
+#	jquery-easyui/themes/gray/images/tree_folder.gif
+#	jquery-easyui/themes/gray/images/tree_folder_open.gif
+#	jquery-easyui/themes/gray/images/tree_loading.gif
+#	jquery-easyui/themes/gray/images/validatebox_pointer.gif
+#	jquery-easyui/themes/gray/images/validatebox_warning.png
+#	jquery-easyui/themes/gray/layout.css
+#	jquery-easyui/themes/gray/linkbutton.css
+#	jquery-easyui/themes/gray/menu.css
+#	jquery-easyui/themes/gray/menubutton.css
+#	jquery-easyui/themes/gray/messager.css
+#	jquery-easyui/themes/gray/pagination.css
+#	jquery-easyui/themes/gray/panel.css
+#	jquery-easyui/themes/gray/progressbar.css
+#	jquery-easyui/themes/gray/propertygrid.css
+#	jquery-easyui/themes/gray/searchbox.css
+#	jquery-easyui/themes/gray/slider.css
+#	jquery-easyui/themes/gray/spinner.css
+#	jquery-easyui/themes/gray/splitbutton.css
+#	jquery-easyui/themes/gray/tabs.css
+#	jquery-easyui/themes/gray/tree.css
+#	jquery-easyui/themes/gray/validatebox.css
+#	jquery-easyui/themes/gray/window.css
+#	jquery-easyui/themes/icon.css
+#	jquery-easyui/themes/icons/
+#	jquery-easyui/themes/metro/
+#	jquery.nyroModal/
+#	jquery/
+#	queryfac.sql
+#	repositorio/
+#	validator/
+#
+

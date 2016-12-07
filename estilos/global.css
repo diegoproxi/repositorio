@@ -1,0 +1,65 @@
+body{
+	width:100% ;
+	font-family:'lucida sans unicode', 'lucida grande', sans-serif;
+	font-size: 12px;
+}
+a {
+color:#0B9450;
+text-decoration: underline;
+cursor: auto;
+font-weight: bold;
+text-decoration: none;
+}
+a:hover {
+color:#84C550;
+text-decoration: underline;
+cursor: auto;
+font-weight: bold;
+text-decoration: none;
+}
+.titles{
+	margin: 0px;
+	border: 1px solid #D9D9D9;
+	background: #E7E7E7 url('images/ui-bg_diagonals-small_100_e7e7e7_40x40.png') 50% 50% repeat;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 13px !important;
+	font-weight: bold;
+	color: #5E5E5E;
+	padding: 5px;
+}
+.clear{
+	clear:both;
+}
+button, input[type="button"]{
+	-webkit-box-align: center;
+	text-align: center;
+	cursor: default;
+	padding: 2px 10px 3px;
+	border: 2px outset buttonface;
+	box-sizing: border-box;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #F4903A;
+	background: #F2810D url(images/ui-bg_highlight-hard_75_f2810d_1x100.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: white;
+	margin:3px;
+	font-size:13px;
+}
+p{
+	color:#5E5E5E;
+	padding:.2em;
+	margin:0 0 5px 0;
+}
+h4{
+	font-size:16px;
+	width:100%;
+	text-align:center;
+	margin:5px 0;
+	color:#0B9450;
+}

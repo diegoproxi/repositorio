@@ -1,0 +1,27 @@
+﻿.viewWrap
+{
+    padding: 15px;
+    background: #2291b5 0 0 url(Img/bluegradient.gif) repeat-x;
+}
+
+.contactWrap
+{
+    padding: 10px 15px 15px 15px;
+    background: #fff;
+    color: #333;
+}
+
+.contactWrap td
+{
+    padding: 0 20px 0 0;
+}
+
+.contactWrap td td
+{
+    padding: 3px 20px 3px 0;
+}
+
+.contactWrap img
+{
+    border: 1px solid #05679d;
+}

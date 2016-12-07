@@ -1,0 +1,3810 @@
+﻿<head>
+</head>
+<table class="tabs">
+    <tbody>
+        <tr>
+            <th class="tabcks">&nbsp;</th>
+            <th class="tabck" id="tabck-1" onclick="activaTab(this)">EVA</th>
+            <th class="tabcks">&nbsp;</th>
+            <th class="tabck" id="tabck-2" onclick="activaTab(this)">ROIC</th>
+            <th class="tabcks">&nbsp;</th>
+            <th class="tabck" id="tabck-3" onclick="activaTab(this)">FCL</th>
+            <th class="tabcks">&nbsp;</th>
+            <th class="tabck" id="tabck-4" onclick="activaTab(this)">Resumen x regi&oacute;n</th>
+            <th class="tabcks">&nbsp;</th>
+            <th class="tabck" id="tabck-5" onclick="activaTab(this)">PyG</th>
+        </tr>
+        <tr class="filadiv">
+            <td colspan="10">
+            <div class="tabdiv" id="tabdiv-1">
+            <div class="col1" style="float: left;">
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>Ventas</td>
+                    </tr>
+                    <tr>
+                        <td id="tdevaest">@RIA Codigo=610_006 Esc=2@</td>
+                    </tr>
+                    <tr>
+                        <td id="tdevareal">@RIA Codigo=610_006 Esc=3@</td>
+                    </tr>
+                    <tr>
+                        <td id="tdevamen"></td>
+                    </tr>
+                    <tr>
+                        <td id="tdevadiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>Costos</td>
+                    </tr>
+                    <tr>
+                        <td id="tdevacosest">@RIA Codigo=510_015 Esc=2@</td>
+                    </tr>
+                    <tr>
+                        <td id="tdevacosreal">@RIA Codigo=510_015 Esc=3@</td>
+                    </tr>
+                    <tr>
+                        <td  id="tdevacosrest"></td>
+                    </tr>
+                    <tr>
+                        <td  id="tdevacosdiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>Gastos</td>
+                    </tr>
+                    <tr>
+                        <td id="tdevagasest">@RIA Codigo=510_031 Esc=2@</td>
+                    </tr>
+                    <tr>
+                        <td  id="tdevagasreal">@RIA Codigo=510_031 Esc=3@</td>
+                    </tr>
+                    <tr>
+                        <td id="tdevagasrest"></td>
+                    </tr>
+                    <tr>
+                        <td id="tdevagasrdiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>Cartera</td>
+                    </tr>
+                    <tr>
+                        <td  id="tdevacarest">@RIA Codigo=510_006 Esc=2@</td>
+                    </tr>
+                    <tr>
+                        <td  id="tdevacarreal">@RIA Codigo=510_006 Esc=3@</td>
+                    </tr>
+                    <tr>
+                        <td  id="tdevacarrest"></td>
+                    </tr>
+                    <tr>
+                        <td  id="tdevacardiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td >Inventario</td>
+                    </tr>
+                    <tr>
+                        <td id="tdevainvest">@RIA Codigo=510_007 Esc=2@</td>
+                    </tr>
+                    <tr>
+                        <td  id="tdevainvreal">@RIA Codigo=510_007 Esc=3@</td>
+                    </tr>
+                    <tr>
+                        <td  id="tdevainvrest"></td>
+                    </tr>
+                    <tr>
+                        <td  id="tdevainvdiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>Proveed.</td>
+                    </tr>
+                    <tr>
+                        <td id="tdevaproest">@RIA Codigo=510_008 Esc=2@</td>
+                    </tr>
+                    <tr>
+                        <td id="tdevaproreal">@RIA Codigo=510_008 Esc=3@</td>
+                    </tr>
+                    <tr>
+                        <td  id="tdevaprorest"></td>
+                    </tr>
+                    <tr>
+                        <td  id="tdevaprodiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="col2">
+            <table class="verde">
+                <tbody>
+                    <tr>
+                        <td>UO</td>
+                    </tr>
+                    <tr>
+                        <td id="divuoest"></td>
+                    </tr>
+                    <tr>
+                        <td id="divuoreal"></td>
+                    </tr>
+                    <tr>
+                        <td id="divuorest"></td>
+                    </tr>
+                    <tr>
+                        <td id="divuodiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="azul">
+                <tbody>
+                    <tr>
+                        <td>EBIDTA</td>
+                    </tr>
+                    <tr>
+                        <td id="divedibtarest">@RIA Codigo=610_003 Esc=2@</td>
+                    </tr>
+                    <tr>
+                        <td id="divedibtareal">@RIA Codigo=610_003 Esc=3@</td>
+                    </tr>
+                    <tr>
+                        <td id="divedibtaresta"></td>
+                    </tr>
+                    <tr>
+                        <td id="divedibtadiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="verde">
+                <tbody>
+                    <tr>
+                        <td>KTNO</td>
+                    </tr>
+                    <tr>
+                        <td id="divktnoest"></td>
+                    </tr>
+                    <tr>
+                        <td  id="divktnoreal"></td>
+                    </tr>
+                    <tr>
+                        <td  id="divktnorest"></td>
+                    </tr>
+                    <tr>
+                        <td  id="divktnodiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>AF y Otros</td>
+                    </tr>
+                    <tr>
+                        <td id="divafest">@RIA Codigo=510_009 Esc=2@</td>
+                    </tr>
+                    <tr>
+                        <td id="divafreal">@RIA Codigo=510_009 Esc=2@</td>
+                    </tr>
+                    <tr>
+                        <td id="divafrest"></td>
+                    </tr>
+                    <tr>
+                        <td id="divafdiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="col3">
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>Post Operativos</td>
+                    </tr>
+                    <tr>
+                        <td id="divposest"></td>
+                    </tr>
+                    <tr>
+                        <td id="divposreal"></td>
+                    </tr>
+                    <tr>
+                        <td id="divposrest"></td>
+                    </tr>
+                    <tr>
+                        <td id="divposdiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="azul">
+                <tbody>
+                    <tr>
+                        <td>CAP Empleado</td>
+                    </tr>
+                    <tr>
+                        <td id="divcapempest"></td>
+                    </tr>
+                    <tr>
+                        <td id="divcapempreal"></td>
+                    </tr>
+                    <tr>
+                        <td id="divcapemprest"></td>
+                    </tr>
+                    <tr>
+                        <td id="divcapempdiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="gris">
+                <tbody>
+                    <tr>
+                        <td>WACC</td>
+                    </tr>
+                    <tr>
+                        <td id="divwacc">@RIA Codigo=510_038 Esc=3@</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="col4">
+            <table class="verde">
+                <tbody>
+                    <tr>
+                        <td>UODI</td>
+                    </tr>
+                    <tr>
+                        <td id="divuodiest">@RIA Codigo=510_032 Esc=2@</td>
+                    </tr>
+                    <tr>
+                        <td id="divuodireal">@RIA Codigo=510_032 Esc=3@</td>
+                    </tr>
+                    <tr>
+                        <td id="divuodirest"></td>
+                    </tr>
+                    <tr>
+                        <td id="divuodidiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>Rentabilidad Mi</td>
+                    </tr>
+                    <tr>
+                        <td id="divrentest"></td>
+                    </tr>
+                    <tr>
+                        <td  id="divrentreal"></td>
+                    </tr>
+                    <tr>
+                        <td   id="divrentrest"></td>
+                    </tr>
+                    <tr>
+                        <td  id="divrentdiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="col5">
+            <table class="gris">
+                <tbody>
+                    <tr>
+                        <td>Cuenta</td>
+                    </tr>
+                    <tr>
+                        <td>Estimado</td>
+                    </tr>
+                    <tr>
+                        <td>Real</td>
+                    </tr>
+                    <tr>
+                        <td>R-p</td>
+                    </tr>
+                    <tr>
+                        <td>R/P</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="azul">
+                <tbody>
+                    <tr>
+                        <td>EVA</td>
+                    </tr>
+                    <tr>
+                        <td id="divevatotest"></td>
+                    </tr>
+                    <tr>
+                        <td  id="divevatotreal"></td>
+                    </tr>
+                    <tr>
+                        <td  id="divevatotrest"></td>
+                    </tr>
+                    <tr>
+                        <td  id="divevatotdiv"></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>EVA</td>
+                        <td>MON. LOCAL</td>
+                    </tr>
+                    <tr>
+                        <td>Colombia</td>
+                        <td>@RIA Codigo=110_078 Esc=3@</td>
+                    </tr>
+                    <tr>
+                        <td>Venezuela</td>
+                        <td>@RIA Codigo=310_001 Esc=3@</td>
+                    </tr>
+                    <tr>
+                        <td>Panamá</td>
+                        <td>@RIA Codigo=210_001 Esc=3@</td>
+                    </tr>
+                    <tr>
+                        <td>Setas</td>
+                        <td>@RIA Codigo=410_001 Esc=3@</td>
+                    </tr>
+                    <tr>
+                        <td>EVA NC Sin Ven</td>
+                        <td>@RIA Codigo=110_178 Esc=3@</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="tabdiv" id="tabdiv-2">
+            <div class="col1" style="float: left;">
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>Ventas</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>Costos</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>Gastos</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>Cartera</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>Inventario</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>Proveed.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="col2" style="float: left;">
+            <table class="verde">
+                <tbody>
+                    <tr>
+                        <td>UO</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="azul">
+                <tbody>
+                    <tr>
+                        <td>EBIDTA</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="verde">
+                <tbody>
+                    <tr>
+                        <td>KTNO</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>AF y Otros</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="col3" style="float: left;">
+            <table class="naranja">
+                <tbody>
+                    <tr>
+                        <td>Post Operativos</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="azul">
+                <tbody>
+                    <tr>
+                        <td>CAP Empleado</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            </div>
+            <div class="tabdiv" id="tabdiv-3">
+            El &uacute;ltimo contenido de la <strong class="azul">Pesta&ntilde;a 3</strong>
+            </div>
+            <div class="tabdiv" id="tabdiv-4">
+            <table class="tabs">
+                <tbody>
+                    <tr>
+                        <th class="tabcks">&nbsp;</th>
+                        <th class="tabck" id="tabck-6" onclick="activaTab2(this)">NC Acum</th>
+                        <th class="tabcks">&nbsp;</th>
+                        <th class="tabck" id="tabck-7" onclick="activaTab2(this)">NC Mens</th>
+                        <th class="tabcks">&nbsp;</th>
+                        <th class="tabck" id="tabck-8" onclick="activaTab2(this)">x regi&oacute;n Acum</th>
+                        <th class="tabcks">&nbsp;</th>
+                        <th class="tabck" id="tabck-9" onclick="activaTab2(this)">x regi&oacute;n Mens</th>
+                    </tr>
+                    <tr class="filadiv">
+                        <td colspan="8">
+                        <div class="interno" id="tabdiv-6">
+                        <div>Negocio C&aacute;rnico</div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>NEG-COP</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum E</td>
+                                    <td>% VAR</td>
+                                    <td>2013P</td>
+                                    <td>% Cum P</td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="negvenac1">@RIA Codigo=610_006 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negvenac2">@RIA Codigo=610_006 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negvenac3">@RIA Codigo=610_006 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negvenac4">@RIA Codigo=610_006 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negvenac5">@RIA Codigo=610_006 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negvenac6">@RIA Codigo=610_006 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. Bruto</td>
+                                    <td>
+                                    <div id="negmbrutoac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmbrutoac2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmbrutoac3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmbrutoac4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmbrutoac5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmbrutoac6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="negudirac1">@RIA Codigo=510_030 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negudirac2">@RIA Codigo=510_030 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negudirac3">@RIA Codigo=510_030 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negudirac4">@RIA Codigo=510_030 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negudirac5">@RIA Codigo=510_030 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negudirac6">@RIA Codigo=510_030 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="negebitdaac1">@RIA Codigo=610_003 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negebitdaac2">@RIA Codigo=610_003 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negebitdaac3">@RIA Codigo=610_003 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negebitdaac4">@RIA Codigo=610_003 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negebitdaac5">@RIA Codigo=610_003 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negebitdaac6">@RIA Codigo=610_003 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. EBITDA</td>
+                                    <td>
+                                    <div id="negmebitdaac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmebitdaac2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmebitdaac3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmebitdaac4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmebitdaac5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmebitdaac6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>costos</td>
+                                    <td>
+                                    <div id="negcostosac1">@RIA Codigo=510_015 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negcostosac2">@RIA Codigo=510_015 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negcostosac3">@RIA Codigo=510_015 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negcostosac4">@RIA Codigo=510_015 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negcostosac5">@RIA Codigo=510_015 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negcostosac6">@RIA Codigo=510_015 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>u bruta</td>
+                                    <td>
+                                    <div id="negubrutaac1">@RIA Codigo=510_025 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negubrutaac2">@RIA Codigo=510_025 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negubrutaac3">@RIA Codigo=510_025 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negubrutaac4">@RIA Codigo=510_025 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negubrutaac5">@RIA Codigo=510_025 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negubrutaac6">@RIA Codigo=510_025 Esc=10@</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>Negocio C&aacute;rnico Nacional</div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>NAL-COP</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum E</td>
+                                    <td>% VAR</td>
+                                    <td>2013P</td>
+                                    <td>% Cum P</td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="nalvenac1">@RIA Codigo=510_051 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalvenac2">@RIA Codigo=510_051 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalvenac3">@RIA Codigo=510_051 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalvenac4">@RIA Codigo=510_051 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalvenac5">@RIA Codigo=510_051 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalvenac6">@RIA Codigo=510_051 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. Bruto</td>
+                                    <td>
+                                    <div id="nalmbrutoac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmbrutoac2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmbrutoac3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmbrutoac4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmbrutoac5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmbrutoac6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="naludirac1">@RIA Codigo=510_047 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="naludirac2">@RIA Codigo=510_047 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="naludirac3">@RIA Codigo=510_047 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="naludirac4">@RIA Codigo=510_047 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="naludirac5">@RIA Codigo=510_047 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="naludirac6">@RIA Codigo=510_047 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="nalebitdaac1">@RIA Codigo=510_053 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalebitdaac2">@RIA Codigo=510_053 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalebitdaac3">@RIA Codigo=510_053 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalebitdaac4">@RIA Codigo=510_053 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalebitdaac5">@RIA Codigo=510_053 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalebitdaac6">@RIA Codigo=510_053 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. EBITDA</td>
+                                    <td>
+                                    <div id="nalmebitdaac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmebitdaac2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmebitdaac3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmebitdaac4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmebitdaac5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmebitdaac6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>costos</td>
+                                    <td>
+                                    <div id="nalcostosac1">@RIA Codigo=510_025 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalcostosac2">@RIA Codigo=510_025 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalcostosac3">@RIA Codigo=510_025 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalcostosac4">@RIA Codigo=510_025 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalcostosac5">@RIA Codigo=510_025 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalcostosac6">@RIA Codigo=510_025 Esc=3@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>u bruta</td>
+                                    <td>
+                                    <div id="nalubrutaac1">@RIA Codigo=510_052 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalubrutaac2">@RIA Codigo=510_052 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalubrutaac3">@RIA Codigo=510_052 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalubrutaac4">@RIA Codigo=510_052 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalubrutaac5">@RIA Codigo=510_052 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalubrutaac6">@RIA Codigo=510_052 Esc=3@</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>Negocio C&aacute;rnico Internacional</div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>INT-COP</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum E</td>
+                                    <td>% VAR</td>
+                                    <td>2013P</td>
+                                    <td>% Cum P</td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="intvenac1">@RIA Codigo=510_054 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intvenac2">@RIA Codigo=510_054 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intvenac3">@RIA Codigo=510_054 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intvenac4">@RIA Codigo=510_054 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intvenac5">@RIA Codigo=510_054 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intvenac6">@RIA Codigo=510_054 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. Bruto</td>
+                                    <td>
+                                    <div id="intmbrutoac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmbrutoac2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmbrutoac3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmbrutoac4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmbrutoac5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmbrutoac6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="intudirac1">@RIA Codigo=510_048 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intudirac2">@RIA Codigo=510_048 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intudirac3">@RIA Codigo=510_048 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intudirac4">@RIA Codigo=510_048 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intudirac5">@RIA Codigo=510_048 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intudirac6">@RIA Codigo=510_048 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="intebitdaac1">@RIA Codigo=510_056 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intebitdaac1">@RIA Codigo=510_056 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intebitdaac1">@RIA Codigo=510_056 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intebitdaac1">@RIA Codigo=510_056 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intebitdaac1">@RIA Codigo=510_056 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intebitdaac1">@RIA Codigo=510_056 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. EBITDA</td>
+                                    <td>
+                                    <div id="intmebitdaac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmebitdaac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmebitdaac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmebitdaac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmebitdaac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmebitdaac1"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>costos</td>
+                                    <td>
+                                    <div id="intcostosac1">@RIA Codigo=510_015 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intcostosac2">@RIA Codigo=510_015 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intcostosac3">@RIA Codigo=510_015 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intcostosac4">@RIA Codigo=510_015 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intcostosac5">@RIA Codigo=510_015 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intcostosac6">@RIA Codigo=510_015 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>u bruta</td>
+                                    <td>
+                                    <div id="intubrutaac1">@RIA Codigo=510_055 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intubrutaac2">@RIA Codigo=510_055 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intubrutaac3">@RIA Codigo=510_055 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intubrutaac4">@RIA Codigo=510_055 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intubrutaac5">@RIA Codigo=510_055 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intubrutaac6">@RIA Codigo=510_055 Esc=10@</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        <div class="interno" id="tabdiv-7">
+                        <div>Negocio C&aacute;rnico</div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>NEG-COP</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum E</td>
+                                    <td>% VAR</td>
+                                    <td>2013P</td>
+                                    <td>% Cum P</td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="negvenme1">@RIA Codigo=610_006 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negvenme2">@RIA Codigo=610_006 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negvenme3">@RIA Codigo=610_006 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negvenme4">@RIA Codigo=610_006 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negvenme5">@RIA Codigo=610_006 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negvenme6">@RIA Codigo=610_006 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. Bruto</td>
+                                    <td>
+                                    <div id="negmbrutome1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmbrutome2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmbrutome3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmbrutome4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmbrutome5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmbrutome6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="negudirmen1">@RIA Codigo=510_030 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negudirmen2">@RIA Codigo=510_030 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negudirmen3">@RIA Codigo=510_030 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negudirmen4">@RIA Codigo=510_030 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negudirmen5">@RIA Codigo=510_030 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negudirmen6">@RIA Codigo=510_030 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="negebitdamen1">@RIA Codigo=610_003 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negebitdamen2">@RIA Codigo=610_003 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negebitdamen3">@RIA Codigo=610_003 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negebitdamen4">@RIA Codigo=610_003 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negebitdamen5">@RIA Codigo=610_003 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="negebitdamen6">@RIA Codigo=610_003 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. EBITDA</td>
+                                    <td>
+                                    <div id="negmebitdamen1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmebitdamen2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmebitdamen3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmebitdamen4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmebitdamen5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="negmebitdamen6"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>Negocio C&aacute;rnico Nacional</div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>NAL-COP</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum E</td>
+                                    <td>% VAR</td>
+                                    <td>2013P</td>
+                                    <td>% Cum P</td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="nalvenme1">@RIA Codigo=510_051 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalvenme2">@RIA Codigo=510_051 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalvenme3">@RIA Codigo=510_051 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalvenme4">@RIA Codigo=510_051 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalvenme5">@RIA Codigo=510_051 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalvenme6">@RIA Codigo=510_051 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. Bruto</td>
+                                    <td>
+                                    <div id="nalmbrutome1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmbrutome2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmbrutome3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmbrutome4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmbrutome5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmbrutome6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="naludirmen1">@RIA Codigo=510_047 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="naludirmen2">@RIA Codigo=510_047 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="naludirmen3">@RIA Codigo=510_047 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="naludirmen4">@RIA Codigo=510_047 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="naludirmen5">@RIA Codigo=510_047 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="naludirmen6">@RIA Codigo=510_047 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="nalebitdamen1">@RIA Codigo=510_053 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalebitdamen2">@RIA Codigo=510_053 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalebitdamen3">@RIA Codigo=510_053 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalebitdamen4">@RIA Codigo=510_053 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalebitdamen5">@RIA Codigo=510_053 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="nalebitdamen6">@RIA Codigo=510_053 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. EBITDA</td>
+                                    <td>
+                                    <div id="nalmebitdamen1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmebitdamen2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmebitdamen3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmebitdamen4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmebitdamen5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="nalmebitdamen6"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>Negocio C&aacute;rnico Internacional</div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>INT-COP</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum E</td>
+                                    <td>% VAR</td>
+                                    <td>2013P</td>
+                                    <td>% Cum P</td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="intvenme1">@RIA Codigo=510_054 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intvenme2">@RIA Codigo=510_054 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intvenme3">@RIA Codigo=510_054 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intvenme4">@RIA Codigo=510_054 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intvenme5">@RIA Codigo=510_054 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intvenme6">@RIA Codigo=510_054 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. Bruto</td>
+                                    <td>
+                                    <div id="intmbrutome1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmbrutome2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmbrutome3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmbrutome4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmbrutome5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmbrutome6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="intudirmen1">@RIA Codigo=510_048 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intudirmen2">@RIA Codigo=510_048 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intudirmen3">@RIA Codigo=510_048 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intudirmen4">@RIA Codigo=510_048 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intudirmen5">@RIA Codigo=510_048 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intudirmen6">@RIA Codigo=510_048 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="intebitdamen1">@RIA Codigo=510_056 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intebitdamen2">@RIA Codigo=510_056 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intebitdamen3">@RIA Codigo=510_056 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intebitdamen4">@RIA Codigo=510_056 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intebitdamen5">@RIA Codigo=510_056 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="intebitdamen6">@RIA Codigo=510_056 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. EBITDA</td>
+                                    <td>
+                                    <div id="intmebitdamen1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmebitdamen2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmebitdamen3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmebitdamen4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmebitdamen5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="intmebitdamen6"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        <div class="interno" id="tabdiv-8">
+                        <div>Colombia</div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>COL-COP</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum E</td>
+                                    <td>% VAR</td>
+                                    <td>2013P</td>
+                                    <td>% Cum P</td>
+                                </tr>
+                                <tr>
+                                    <td>Volumen</td>
+                                    <td>
+                                    <div id="colvolac1">@RIA Codigo=110_121 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvolac2">@RIA Codigo=110_121 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvolac3">@RIA Codigo=110_121 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvolac4">@RIA Codigo=110_121 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvolac5">@RIA Codigo=110_121 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvolac6">@RIA Codigo=110_121 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="colvenac1">@RIA Codigo=110_114 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvenac2">@RIA Codigo=110_114 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvenac3">@RIA Codigo=110_114 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvenac4">@RIA Codigo=110_114 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvenac5">@RIA Codigo=110_114 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvenac6">@RIA Codigo=110_114 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. Bruto</td>
+                                    <td>
+                                    <div id="colmbruac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmbruac2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmbruac3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmbruac4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmbruac5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmbruac6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="coludirac1">@RIA Codigo=110_076 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="coludirac2">@RIA Codigo=110_076 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="coludirac3">@RIA Codigo=110_076 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="coludirac4">@RIA Codigo=110_076 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="coludirac5">@RIA Codigo=110_076 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="coludirac6">@RIA Codigo=110_076 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="colebitdaac1">@RIA Codigo=110_109 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colebitdaac2">@RIA Codigo=110_109 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colebitdaac3">@RIA Codigo=110_109 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colebitdaac4">@RIA Codigo=110_109 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colebitdaac5">@RIA Codigo=110_109 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colebitdaac6">@RIA Codigo=110_109 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. EBITDA</td>
+                                    <td>
+                                    <div id="colmebitdaac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmebitdaac2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmebitdaac3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmebitdaac4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmebitdaac5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmebitdaac6"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>Setas</div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>SET-COP</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum E</td>
+                                    <td>% VAR</td>
+                                    <td>2013P</td>
+                                    <td>% Cum P</td>
+                                </tr>
+                                <tr>
+                                    <td>Volumen</td>
+                                    <td>
+                                    <div id="setvolac1">@RIA Codigo=410_022 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvolac1">@RIA Codigo=410_022 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvolac1">@RIA Codigo=410_022 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvolac1">@RIA Codigo=410_022 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvolac1">@RIA Codigo=410_022 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvolac1">@RIA Codigo=410_022 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="setvenac1">@RIA Codigo=410_034 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvenac2">@RIA Codigo=410_034 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvenac3">@RIA Codigo=410_034 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvenac4">@RIA Codigo=410_034 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvenac5">@RIA Codigo=410_034 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvenac6">@RIA Codigo=410_034 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. Bruto</td>
+                                    <td>
+                                    <div id="setmbruac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmbruac2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmbruac3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmbruac4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmbruac5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmbruac6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="setudirac1">@RIA Codigo=410_009 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setudirac2">@RIA Codigo=410_009 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setudirac3">@RIA Codigo=410_009 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setudirac4">@RIA Codigo=410_009 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setudirac5">@RIA Codigo=410_009 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setudirac6">@RIA Codigo=410_009 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="setebitdaac1">@RIA Codigo=410_026 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setebitdaac2">@RIA Codigo=410_026 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setebitdaac3">@RIA Codigo=410_026 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setebitdaac4">@RIA Codigo=410_026 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setebitdaac5">@RIA Codigo=410_026 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setebitdaac6">@RIA Codigo=410_026 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. EBITDA</td>
+                                    <td>
+                                    <div id="setmebitdaac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmebitdaac2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmebitdaac3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmebitdaac4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmebitdaac5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmebitdaac6"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>Venezuela</div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>VEN-VEF</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum E</td>
+                                    <td>% VAR</td>
+                                    <td>2013P</td>
+                                    <td>% Cum P</td>
+                                </tr>
+                                <tr>
+                                    <td>Volumen</td>
+                                    <td>
+                                    <div id="venvolac1">@RIA Codigo=310_011 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvolac2">@RIA Codigo=310_011 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvolac3">@RIA Codigo=310_011 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvolac4">@RIA Codigo=310_011 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvolac5">@RIA Codigo=310_011 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvolac6">@RIA Codigo=310_011 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="venvenac1">@RIA Codigo=310_056 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvenac2">@RIA Codigo=310_056 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvenac3">@RIA Codigo=310_056 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvenac4">@RIA Codigo=310_056 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvenac5">@RIA Codigo=310_056 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvenac6">@RIA Codigo=310_056 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. Bruto</td>
+                                    <td>
+                                    <div id="venmbruac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmbruac2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmbruac3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmbruac4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmbruac5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmbruac6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="venudirac1">@RIA Codigo=310_009 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venudirac2">@RIA Codigo=310_009 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venudirac3">@RIA Codigo=310_009 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venudirac4">@RIA Codigo=310_009 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venudirac5">@RIA Codigo=310_009 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venudirac6">@RIA Codigo=310_009 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="venebitdaac1">@RIA Codigo=310_040 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venebitdaac2">@RIA Codigo=310_040 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venebitdaac3">@RIA Codigo=310_040 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venebitdaac4">@RIA Codigo=310_040 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venebitdaac5">@RIA Codigo=310_040 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venebitdaac6">@RIA Codigo=310_040 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. EBITDA</td>
+                                    <td>
+                                    <div id="venmebitdaac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmebitdaac2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmebitdaac3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmebitdaac4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmebitdaac5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmebitdaac6"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>Panam&aacute;</div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>PAN-USD</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum E</td>
+                                    <td>% VAR</td>
+                                    <td>2013P</td>
+                                    <td>% Cum P</td>
+                                </tr>
+                                <tr>
+                                    <td>Volumen</td>
+                                    <td>
+                                    <div id="panvolac1">@RIA Codigo=210_048 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvolac2">@RIA Codigo=210_048 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvolac3">@RIA Codigo=210_048 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvolac4">@RIA Codigo=210_048 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvolac5">@RIA Codigo=210_048 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvolac6">@RIA Codigo=210_048 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="panvenac1">@RIA Codigo=210_056 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvenac2">@RIA Codigo=210_056 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvenac3">@RIA Codigo=210_056 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvenac4">@RIA Codigo=210_056 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvenac5">@RIA Codigo=210_056 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvenac6">@RIA Codigo=210_056 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. Bruto</td>
+                                    <td>
+                                    <div id="panmbruac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmbruac2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmbruac3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmbruac4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmbruac5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmbruac6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="panudirac1">@RIA Codigo=210_028 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panudirac2">@RIA Codigo=210_028 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panudirac3">@RIA Codigo=210_028 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panudirac4">@RIA Codigo=210_028 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panudirac5">@RIA Codigo=210_028 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panudirac6">@RIA Codigo=210_028 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="panebitdaac1">@RIA Codigo=210_052 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panebitdaac2">@RIA Codigo=210_052 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panebitdaac3">@RIA Codigo=210_052 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panebitdaac4">@RIA Codigo=210_052 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panebitdaac5">@RIA Codigo=210_052 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panebitdaac6">@RIA Codigo=210_052 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. EBITDA</td>
+                                    <td>
+                                    <div id="panmebitdaac1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmebitdaac2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmebitdaac3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmebitdaac4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmebitdaac5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmebitdaac6"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        <div class="interno" id="tabdiv-9">
+                        <div>Colombia</div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>COL-COP</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum E</td>
+                                    <td>% VAR</td>
+                                    <td>2013P</td>
+                                    <td>% Cum P</td>
+                                </tr>
+                                <tr>
+                                    <td>Volumen</td>
+                                    <td>
+                                    <div id="colvolme1">@RIA Codigo=110_121 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvolme2">@RIA Codigo=110_121 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvolme3">@RIA Codigo=110_121 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvolme4">@RIA Codigo=110_121 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvolme5">@RIA Codigo=110_121 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvolme6">@RIA Codigo=110_121 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="colvenme1">@RIA Codigo=110_114 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvenme2">@RIA Codigo=110_114 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvenme3">@RIA Codigo=110_114 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvenme4">@RIA Codigo=110_114 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvenme5">@RIA Codigo=110_114 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colvenme6">@RIA Codigo=110_114 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. Bruto</td>
+                                    <td>
+                                    <div id="colmbrume1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmbrume2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmbrume3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmbrume4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmbrume5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmbrume6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="coludirme1">@RIA Codigo=110_076 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="coludirme2">@RIA Codigo=110_076 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="coludirme3">@RIA Codigo=110_076 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="coludirme4">@RIA Codigo=110_076 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="coludirme5">@RIA Codigo=110_076 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="coludirme6">@RIA Codigo=110_076 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="colebitdame1">@RIA Codigo=110_109 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colebitdame2">@RIA Codigo=110_109 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colebitdame3">@RIA Codigo=110_109 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colebitdame4">@RIA Codigo=110_109 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colebitdame5">@RIA Codigo=110_109 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="colebitdame6">@RIA Codigo=110_109 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. EBITDA</td>
+                                    <td>
+                                    <div id="colmebitdame1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmebitdame2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmebitdame3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmebitdame4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmebitdame5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="colmebitdame6"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>Setas</div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>SET-COP</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum E</td>
+                                    <td>% VAR</td>
+                                    <td>2013P</td>
+                                    <td>% Cum P</td>
+                                </tr>
+                                <tr>
+                                    <td>Volumen</td>
+                                    <td>
+                                    <div id="setvolme1">@RIA Codigo=410_022 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvolme2">@RIA Codigo=410_022 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvolme3">@RIA Codigo=410_022 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvolme4">@RIA Codigo=410_022 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvolme5">@RIA Codigo=410_022 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvolme6">@RIA Codigo=410_022 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="setvenme1">@RIA Codigo=410_034 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvenme2">@RIA Codigo=410_034 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvenme3">@RIA Codigo=410_034 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvenme4">@RIA Codigo=410_034 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvenme5">@RIA Codigo=410_034 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setvenme6">@RIA Codigo=410_034 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. Bruto</td>
+                                    <td>
+                                    <div id="setmbrume1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmbrume2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmbrume3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmbrume4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmbrume5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmbrume6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="setudirme1">@RIA Codigo=410_009 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setudirme2">@RIA Codigo=410_009 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setudirme3">@RIA Codigo=410_009 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setudirme4">@RIA Codigo=410_009 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setudirme5">@RIA Codigo=410_009 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setudirme6">@RIA Codigo=410_009 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="setebitdame1">@RIA Codigo=410_026 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setebitdame2">@RIA Codigo=410_026 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setebitdame3">@RIA Codigo=410_026 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setebitdame4">@RIA Codigo=410_026 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setebitdame5">@RIA Codigo=410_026 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="setebitdame6">@RIA Codigo=410_026 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. EBITDA</td>
+                                    <td>
+                                    <div id="setmebitdame1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmebitdame2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmebitdame3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmebitdame4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmebitdame5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="setmebitdame6"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>Venezuela</div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>VEN-VEF</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum E</td>
+                                    <td>% VAR</td>
+                                    <td>2013P</td>
+                                    <td>% Cum P</td>
+                                </tr>
+                                <tr>
+                                    <td>Volumen</td>
+                                    <td>
+                                    <div id="venvolme1">@RIA Codigo=310_011 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvolme2">@RIA Codigo=310_011 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvolme3">@RIA Codigo=310_011 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvolme4">@RIA Codigo=310_011 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvolme5">@RIA Codigo=310_011 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvolme6">@RIA Codigo=310_011 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="venvenme1">@RIA Codigo=310_056 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvenme2">@RIA Codigo=310_056 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvenme3">@RIA Codigo=310_056 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvenme4">@RIA Codigo=310_056 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvenme5">@RIA Codigo=310_056 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venvenme6">@RIA Codigo=310_056 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. Bruto</td>
+                                    <td>
+                                    <div id="venmbrume1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmbrume2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmbrume3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmbrume4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmbrume5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmbrume6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="venudirme1">@RIA Codigo=310_009 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venudirme2">@RIA Codigo=310_009 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venudirme3">@RIA Codigo=310_009 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venudirme4">@RIA Codigo=310_009 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venudirme5">@RIA Codigo=310_009 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venudirme6">@RIA Codigo=310_009 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="venebitdame1">@RIA Codigo=310_040 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venebitdame2">@RIA Codigo=310_040 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venebitdame3">@RIA Codigo=310_040 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venebitdame4">@RIA Codigo=310_040 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venebitdame5">@RIA Codigo=310_040 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="venebitdame6">@RIA Codigo=310_040 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. EBITDA</td>
+                                    <td>
+                                    <div id="venmebitdame1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmebitdame2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmebitdame3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmebitdame4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmebitdame5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="venmebitdame6"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>Panam&aacute;</div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>PAN-USD</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum E</td>
+                                    <td>% VAR</td>
+                                    <td>2013P</td>
+                                    <td>% Cum P</td>
+                                </tr>
+                                <tr>
+                                    <td>Volumen</td>
+                                    <td>
+                                    <div id="panvolme1">@RIA Codigo=210_048 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvolme2">@RIA Codigo=210_048 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvolme3">@RIA Codigo=210_048 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvolme4">@RIA Codigo=210_048 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvolme5">@RIA Codigo=210_048 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvolme6">@RIA Codigo=210_048 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="panvenme1">@RIA Codigo=210_056 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvenme2">@RIA Codigo=210_056 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvenme3">@RIA Codigo=210_056 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvenme4">@RIA Codigo=210_056 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvenme5">@RIA Codigo=210_056 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panvenme6">@RIA Codigo=210_056 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. Bruto</td>
+                                    <td>
+                                    <div id="panmbrume1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmbrume2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmbrume3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmbrume4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmbrume5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmbrume6"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="panudirme1">@RIA Codigo=210_028 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panudirme2">@RIA Codigo=210_028 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panudirme3">@RIA Codigo=210_028 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panudirme4">@RIA Codigo=210_028 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panudirme5">@RIA Codigo=210_028 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panudirme6">@RIA Codigo=210_028 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="panebitdame1">@RIA Codigo=210_052 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panebitdame2">@RIA Codigo=210_052 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panebitdame3">@RIA Codigo=210_052 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panebitdame4">@RIA Codigo=210_052 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panebitdame5">@RIA Codigo=210_052 Esc=5@</div>
+                                    </td>
+                                    <td>
+                                    <div id="panebitdame6">@RIA Codigo=210_052 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M. EBITDA</td>
+                                    <td>
+                                    <div id="panmebitdame1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmebitdame2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmebitdame3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmebitdame4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmebitdame5"></div>
+                                    </td>
+                                    <td>
+                                    <div id="panmebitdame6"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="tabdiv" id="tabdiv-5">
+            <table class="tabs">
+                <tbody>
+                    <tr>
+                        <th class="tabcks">&nbsp;</th>
+                        <th class="tabck" id="tabck-10" onclick="activaTab3(this)">PyG Acumulado</th>
+                        <th class="tabcks">&nbsp;</th>
+                        <th class="tabck" id="tabck-11" onclick="activaTab3(this)">PyG Mensualizado</th>
+                        <th class="tabcks">&nbsp;</th>
+                        <th class="tabck" id="tabck-12" onclick="activaTab3(this)">PyG Presupuesto</th>
+                    </tr>
+                    <tr class="filadiv">
+                        <td colspan="6">
+                        <div class="interno" id="tabdiv-10">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>PyG</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum. E</td>
+                                    <td>% Inc.</td>
+                                    <td>% Cum. P</td>
+                                </tr>
+                                <tr onclick="fnCambiarGrafica('Vol(Ton)','510_010',2013)">
+                                    <td>Vol(Ton)</td>
+                                    <td>
+                                    <div id="vol1">@RIA Codigo=510_010 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="vol2">@RIA Codigo=510_010 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="vol3">@RIA Codigo=510_010 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="vol4">@RIA Codigo=510_010 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="vol5">@RIA Codigo=510_010 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Precio/Kilo</td>
+                                    <td>
+                                    <div id="preciok1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="preciok2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="preciok3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="preciok4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="preciok5"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Costo/Kilo</td>
+                                    <td>
+                                    <div id="costok1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="costok2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="costok3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="costok4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="costok5"></div>
+                                    </td>
+                                </tr>
+                                <tr onclick="fnCambiarGrafica('Ventas','610_006',2013)"> 
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="ventas1">@RIA Codigo=610_006 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ventas2">@RIA Codigo=610_006 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ventas3">@RIA Codigo=610_006 Esc11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ventas4">@RIA Codigo=610_006 Esc20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ventas5">@RIA Codigo=610_006 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr onclick="fnCambiarGrafica('Costos','510_015',2013)">
+                                    <td>Costos</td>
+                                    <td>
+                                    <div id="costos1">@RIA Codigo=510_015 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="costos2">@RIA Codigo=510_015 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="costos3">@RIA Codigo=510_015 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="costos4">@RIA Codigo=510_015 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="costos5">@RIA Codigo=510_015 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <td>Utilidad Bruta</td>
+                                    <td>
+                                    <div id="utilidadb1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadb2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadb3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadb4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadb5"></div>
+                                    </td>
+                                </tr>
+                                <tr  onclick="fnCambiarGrafica('Gastos Directos','410_010',2013)">
+                                    <td>Gastos Directos</td>
+                                    <td>
+                                    <div id="gastosd1">@RIA Codigo=410_010 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd2">@RIA Codigo=410_010 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd3">@RIA Codigo=410_010 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd4">@RIA Codigo=410_010 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd5">@RIA Codigo=410_010 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Industrial</td>
+                                    <td>
+                                    <div id="utilidadind1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadind2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadind3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadind4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadind5"></div>
+                                    </td>
+                                </tr>
+                                <tr  onclick="fnCambiarGrafica('Distribucion Propia','510_027',2013)">
+                                    <td>Gastos Distribuci&oacute;n Propia</td>
+                                    <td>
+                                    <div id="gastosdp1">@RIA Codigo=510_027 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdp2">@RIA Codigo=510_027 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdp3">@RIA Codigo=510_027 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdp4">@RIA Codigo=510_027 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdp5">@RIA Codigo=510_027 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr   onclick="fnCambiarGrafica('Utilidad Directa','510_030',2013)">
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="utilidadd1">@RIA Codigo=510_030 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadd2">@RIA Codigo=510_030 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadd3">@RIA Codigo=510_030 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadd4">@RIA Codigo=510_030 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadd5">@RIA Codigo=510_030 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr   onclick="fnCambiarGrafica('Gastos SN + GN','510_028',2013)">
+                                    <td>Gastos SN + GN</td>
+                                    <td>
+                                    <div id="gastossn1">@RIA Codigo=510_028 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastossn2">@RIA Codigo=510_028 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastossn3">@RIA Codigo=510_028 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastossn4">@RIA Codigo=510_028 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastossn5">@RIA Codigo=510_028 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr  onclick="fnCambiarGrafica('Gastos Comercializadores','510_026',2013)">
+                                    <td>Gastos Comercializadores</td>
+                                    <td>
+                                    <div id="gastosco1">@RIA Codigo=510_026 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosco2">@RIA Codigo=510_026 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosco3">@RIA Codigo=510_026 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosco4">@RIA Codigo=510_026 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosco5">@RIA Codigo=510_026 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr  onclick="fnCambiarGrafica('EBITDA','610_003',2013)">
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="ebitda1">@RIA Codigo=610_003 Esc=3@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ebitda2">@RIA Codigo=610_003 Esc=2@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ebitda3">@RIA Codigo=610_003 Esc=11@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ebitda4">@RIA Codigo=610_003 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ebitda5">@RIA Codigo=610_003 Esc=10@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="6"></td>
+                                </tr>
+                                <tr>
+                                    <td>Margen Bruto</td>
+                                    <td>
+                                    <div id="margenb1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenb2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenb3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenb4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenb5"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>% Gastos Directos</td>
+                                    <td>
+                                    <div id="gastosdir1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdir2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdir3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdir4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdir5"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Margen Industrial</td>
+                                    <td>
+                                    <div id="margenind1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenind2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenind3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenind4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenind5"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>% G. Distribuci&oacute;n Propia</td>
+                                    <td>
+                                    <div id="distp1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="distp2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="distp3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="distp4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="distp5"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M Directo</td>
+                                    <td>
+                                    <div id="mdirecto1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mdirecto2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mdirecto3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mdirecto4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mdirecto5"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>% Gastos SN + GN</td>
+                                    <td>
+                                    <div id="%gastossn1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastossn2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastossn3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastossn4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastossn5"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>% G. Comercializadores</td>
+                                    <td>
+                                    <div id="%gastosc1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastosc2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastosc3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastosc4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastosc5"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Margen EBITDA</td>
+                                    <td>
+                                    <div id="mebitda1"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mebitda2"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mebitda3"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mebitda4"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mebitda5"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <iframe  class="columnasdiv3"  width='374' height='310' frameborder=0 id="grafico1"></iframe>
+
+
+                        </div>
+                        <div class="interno" id="tabdiv-11"> Contenido de la <strong class="verde">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>PyG</td>
+                                    <td>2013R</td>
+                                    <td>2013E</td>
+                                    <td>% Cum. E</td>
+                                    <td>% Inc.</td>
+                                    <td>% Cum. P</td>
+                                </tr>
+                                <tr>
+                                    <td>Vol(Ton)</td>
+                                    <td>
+                                    <div id="vol6">@RIA Codigo=510_010 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="vol7">@RIA Codigo=510_010 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="vol8">@RIA Codigo=510_010 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="vol9">@RIA Codigo=510_010 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="vol10">@RIA Codigo=510_010 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Precio/Kilo</td>
+                                    <td>
+                                    <div id="preciok6"></div>
+                                    </td>
+                                    <td>
+                                    <div id="preciok7"></div>
+                                    </td>
+                                    <td>
+                                    <div id="preciok8"></div>
+                                    </td>
+                                    <td>
+                                    <div id="preciok9"></div>
+                                    </td>
+                                    <td>
+                                    <div id="preciok10"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Costo/Kilo</td>
+                                    <td>
+                                    <div id="costok6"></div>
+                                    </td>
+                                    <td>
+                                    <div id="costok7"></div>
+                                    </td>
+                                    <td>
+                                    <div id="costok8"></div>
+                                    </td>
+                                    <td>
+                                    <div id="costok9"></div>
+                                    </td>
+                                    <td>
+                                    <div id="costok10"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="ventas6">@RIA Codigo=610_006 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ventas7">@RIA Codigo=610_006 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ventas8">@RIA Codigo=610_006 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ventas9">@RIA Codigo=610_006 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ventas10">@RIA Codigo=610_006 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Costos</td>
+                                    <td>
+                                    <div id="costos6">@RIA Codigo=510_015 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="costos7">@RIA Codigo=510_015 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="costos8">@RIA Codigo=510_015 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="costos9">@RIA Codigo=510_015 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="costos10">@RIA Codigo=510_015 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Bruta</td>
+                                    <td>
+                                    <div id="utilidadb6"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadb7"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadb8"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadb9"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadb10"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Gastos Directos</td>
+                                    <td>
+                                    <div id="gastosd6">@RIA Codigo=410_010 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd7">@RIA Codigo=410_010 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd8">@RIA Codigo=410_010 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd9">@RIA Codigo=410_010 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd10">@RIA Codigo=410_010 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Industrial</td>
+                                    <td>
+                                    <div id="utilidadind6"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadind7"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadind8"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadind9"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadind10"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Gastos Distribuci&oacute;n Propia</td>
+                                    <td>
+                                    <div id="gastosdp6">@RIA Codigo=510_027 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdp7">@RIA Codigo=510_027 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdp8">@RIA Codigo=510_027 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdp9">@RIA Codigo=510_027 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdp10">@RIA Codigo=510_027 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="utilidadd6">@RIA Codigo=510_030 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadd7">@RIA Codigo=510_030 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadd8">@RIA Codigo=510_030 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadd9">@RIA Codigo=510_030 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadd10">@RIA Codigo=510_030 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Gastos SN + GN</td>
+                                    <td>
+                                    <div id="gastossn6">@RIA Codigo=510_028 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastossn7">@RIA Codigo=510_028 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastossn8">@RIA Codigo=510_028 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastossn9">@RIA Codigo=510_028 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastossn10">@RIA Codigo=510_028 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Gastos Comercializadores</td>
+                                    <td>
+                                    <div id="gastosco6">@RIA Codigo=510_026 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosco7">@RIA Codigo=510_026 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosco8">@RIA Codigo=510_026 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosco9">@RIA Codigo=510_026 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastosc10">@RIA Codigo=510_026 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="ebitda6">@RIA Codigo=610_003 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ebitda7">@RIA Codigo=610_003 Esc=6@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ebitda8">@RIA Codigo=610_003 Esc=13@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ebitda9">@RIA Codigo=610_003 Esc=21@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ebitda10">@RIA Codigo=610_003 Esc=12@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="6"></td>
+                                </tr>
+                                <tr>
+                                    <td>Margen Bruto</td>
+                                    <td>
+                                    <div id="margenb6"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenb7"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenb8"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenb9"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenb10"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>% Gastos Directos</td>
+                                    <td>
+                                    <div id="gastosdir6"></div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdir7"></div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdir8"></div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdir9"></div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdir10"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Margen Industrial</td>
+                                    <td>
+                                    <div id="margenind6"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenind7"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenind8"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenind9"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenind10"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>% G. Distribuci&oacute;n Propia</td>
+                                    <td>
+                                    <div id="distp6"></div>
+                                    </td>
+                                    <td>
+                                    <div id="distp7"></div>
+                                    </td>
+                                    <td>
+                                    <div id="distp8"></div>
+                                    </td>
+                                    <td>
+                                    <div id="distp9"></div>
+                                    </td>
+                                    <td>
+                                    <div id="distp10"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M Directo</td>
+                                    <td>
+                                    <div id="mdirecto6"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mdirecto7"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mdirecto8"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mdirecto9"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mdirecto10"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>% Gastos SN + GN</td>
+                                    <td>
+                                    <div id="%gastossn6"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastossn7"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastossn8"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastossn9"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastossn10"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>% G. Comercializadores</td>
+                                    <td>
+                                    <div id="%gastosc6"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastosc7"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastosc8"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastosc9"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastosc10"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Margen EBITDA</td>
+                                    <td>
+                                    <div id="mebitda6"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mebitda7"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mebitda8"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mebitda9"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mebitda10"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </strong></div>
+                        <strong class="verde">
+                        <div class="interno" id="tabdiv-12">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>PyG</td>
+                                    <td>2013R</td>
+                                    <td>2013P</td>
+                                    <td>% Cum. P</td>
+                                    <td>% Inc.</td>
+                                    <td>% Cum Est</td>
+                                </tr>
+                                <tr>
+                                    <td>Vol(Ton)</td>
+                                    <td>
+                                    <div id="vol11">@RIA Codigo=510_010 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="vol12">@RIA Codigo=510_010 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="vol13">@RIA Codigo=510_010 Esc=10@</div>
+                                    </td>
+                                    <td>
+                                    <div id="vol14">@RIA Codigo=510_010 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="vol15">@RIA Codigo=510_010 Esc=11@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Precio/Kilo</td>
+                                    <td>
+                                    <div id="preciok11"></div>
+                                    </td>
+                                    <td>
+                                    <div id="preciok12"></div>
+                                    </td>
+                                    <td>
+                                    <div id="preciok13"></div>
+                                    </td>
+                                    <td>
+                                    <div id="preciok14"></div>
+                                    </td>
+                                    <td>
+                                    <div id="preciok15"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Costo/Kilo</td>
+                                    <td>
+                                    <div id="costok11"></div>
+                                    </td>
+                                    <td>
+                                    <div id="costok12"></div>
+                                    </td>
+                                    <td>
+                                    <div id="costok13"></div>
+                                    </td>
+                                    <td>
+                                    <div id="costok14"></div>
+                                    </td>
+                                    <td>
+                                    <div id="costok15"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ventas</td>
+                                    <td>
+                                    <div id="ventas11">@RIA Codigo=610_006 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ventas12">@RIA Codigo=610_006 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ventas13">@RIA Codigo=610_006 Esc=10@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ventas14">@RIA Codigo=610_006 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ventas15">@RIA Codigo=610_006 Esc=11@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Costos</td>
+                                    <td>
+                                    <div id="costos11">@RIA Codigo=510_015 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="costos12">@RIA Codigo=510_015 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="costos13">@RIA Codigo=510_015 Esc=10@</div>
+                                    </td>
+                                    <td>
+                                    <div id="costos14">@RIA Codigo=510_015 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="costos15">@RIA Codigo=510_015 Esc=11@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Bruta</td>
+                                    <td>
+                                    <div id="utilidadb11"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadb12"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadb13"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadb14"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadb15"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Gastos Directos</td>
+                                    <td>
+                                    <div id="gastosd11">@RIA Codigo=410_010 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd12">@RIA Codigo=410_010 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd13">@RIA Codigo=410_010 Esc=10@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd14">@RIA Codigo=410_010 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd15">@RIA Codigo=410_010 Esc=11@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Industrial</td>
+                                    <td>
+                                    <div id="utilidadind11"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadind12"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadind13"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadind14"></div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadind15"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Gastos Distribuci&oacute;n Propia</td>
+                                    <td>
+                                    <div id="gastosdp11">@RIA Codigo=510_027 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdp12">@RIA Codigo=510_027 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdp13">@RIA Codigo=510_027 Esc=10@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdp14">@RIA Codigo=510_027 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosdp15">@RIA Codigo=510_027 Esc=11@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Utilidad Directa</td>
+                                    <td>
+                                    <div id="utilidadd11">@RIA Codigo=510_030 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadd12">@RIA Codigo=510_030 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadd13">@RIA Codigo=510_030 Esc=10@</div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadd14">@RIA Codigo=510_030 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="utilidadd15">@RIA Codigo=510_030 Esc=11@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Gastos SN + GN</td>
+                                    <td>
+                                    <div id="gastossn11">@RIA Codigo=510_028 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastossn12">@RIA Codigo=510_028 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastossn13">@RIA Codigo=510_028 Esc=10@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastossn14">@RIA Codigo=510_028 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastossn15">@RIA Codigo=510_028 Esc=11@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Gastos Comercializadores</td>
+                                    <td>
+                                    <div id="gastosco11">@RIA Codigo=510_026 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosco12">@RIA Codigo=510_026 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosco13">@RIA Codigo=510_026 Esc=10@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosco14">@RIA Codigo=510_026 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosco15">@RIA Codigo=510_026 Esc=11@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EBITDA</td>
+                                    <td>
+                                    <div id="ebitda11">@RIA Codigo=610_003 Esc=7@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ebitda12">@RIA Codigo=610_003 Esc=1@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ebitda13">@RIA Codigo=610_003 Esc=10@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ebitda14">@RIA Codigo=610_003 Esc=20@</div>
+                                    </td>
+                                    <td>
+                                    <div id="ebitda15">@RIA Codigo=610_003 Esc=11@</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="6"></td>
+                                </tr>
+                                <tr>
+                                    <td>Margen Bruto</td>
+                                    <td>
+                                    <div id="margenb11"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenb12"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenb13"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenb14"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenb15"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>% Gastos Directos</td>
+                                    <td>
+                                    <div id="gastosd11"></div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd12"></div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd13"></div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd14"></div>
+                                    </td>
+                                    <td>
+                                    <div id="gastosd15"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Margen Industrial</td>
+                                    <td>
+                                    <div id="margenind11"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenind12"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenind13"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenind14"></div>
+                                    </td>
+                                    <td>
+                                    <div id="margenind15"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>% G. Distribuci&oacute;n Propia</td>
+                                    <td>
+                                    <div id="distp11"></div>
+                                    </td>
+                                    <td>
+                                    <div id="distp12"></div>
+                                    </td>
+                                    <td>
+                                    <div id="distp13"></div>
+                                    </td>
+                                    <td>
+                                    <div id="distp14"></div>
+                                    </td>
+                                    <td>
+                                    <div id="distp15"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>M Directo</td>
+                                    <td>
+                                    <div id="mdirecto11"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mdirecto12"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mdirecto13"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mdirecto14"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mdirecto15"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>% Gastos SN + GN</td>
+                                    <td>
+                                    <div id="%gastossn11"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastossn12"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastossn13"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastossn14"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastossn15"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>% G. Comercializadores</td>
+                                    <td>
+                                    <div id="%gastosc11"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastosc12"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastosc13"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastosc14"></div>
+                                    </td>
+                                    <td>
+                                    <div id="%gastosc15"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Margen EBITDA</td>
+                                    <td>
+                                    <div id="mebitda11"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mebitda12"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mebitda13"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mebitda14"></div>
+                                    </td>
+                                    <td>
+                                    <div id="mebitda15"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        </strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

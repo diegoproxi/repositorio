@@ -1,0 +1,191 @@
+body {
+width: 100%;
+font-family: 'lucida sans unicode', 'lucida grande', sans-serif;
+font-size: 12px;
+margin: 0px!important;
+text-align: center;
+}
+.labels{
+	width: 160px;
+	display: inline-block;
+	margin: 5px 0;
+	font-size: 14px;
+	text-align: right;
+}
+.centrado{
+	text-align: center!important;
+	width: 100%;
+}
+.cuadro-txt{
+    width: 297px;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; 
+    -khtml-border-radius: 4px; 
+    border-radius: 4px;
+    margin: 5px 0;
+}
+.listas{
+    width: 300px;
+    margin: 5px 0;
+    display: inline-block;
+}
+.clear{
+	clear:both;
+	width: 100%;
+}
+#params{
+    margin: 0 auto;
+}
+.avanzado{
+    display: block;
+    margin: 10px;
+}
+.avanzado tr{
+	vertical-align:bottom;
+}
+.avanzado td{
+	text-align: left;
+	width: 20%;
+	padding: 10px;
+}
+.avanzado td .listas{
+	display:block;
+	width: 100%;
+}
+
+#lista1, #lista2, #lista3, #lista4, #lista5, #lista6, #lista7, #lista8 {
+}
+#Button1{
+	width: 100px;
+	height: 25px;
+	font-size: 12px;
+	margin: 0 200px;
+}
+.cuadro-titulos{
+	margin: 0px;
+	border: 1px solid #D9D9D9;
+	background: #E7E7E7 url('images/ui-bg_diagonals-small_100_e7e7e7_40x40.png') 50% 50% repeat;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 13px !important;
+	font-weight: bold;
+	color: #5E5E5E;
+	padding: 5px;
+}
+.cuadro-cuerpo{
+	padding: 7px !important;
+	overflow: auto;
+	zoom: 1;
+	border: 2px solid #FCD354;
+	color: #333333;
+	border-top: 0;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-khtml-border-radius:4px;
+	border-radius:4px;
+	background: #FFF4C0;
+	vertical-align: middle;
+	text-align: center;
+}
+a {
+color:#0B9450;
+text-decoration: underline;
+cursor: auto;
+font-weight: bold;
+text-decoration: none;
+}
+a:hover {
+color:#84C550;
+text-decoration: underline;
+cursor: auto;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+
+
+
+table.zebra {
+	width: 100%
+;
+	margin: 10px 0 0 0;
+}
+table.zebra th {
+	font-size: 16px;
+	font-weight: normal;
+	text-align: left
+}
+table.zebra th, table.zebra td {
+	padding: 5px
+;
+	text-align: center;
+	font-size: 12px;
+	line-height: 17px;
+	border: 1px solid #DDD;
+}
+table.zebra tbody, table.zebra tfoot {
+	font-size: 12px
+}
+table.zebra .bold {
+	font-weight: bold
+}
+table.zebra .center {
+	text-align: center
+}
+table.zebra td * {
+	vertical-align: middle
+}
+table.zebra tfoot {
+	font-style: italic
+}
+table.zebra caption {
+	font-size: 11px;
+	text-align: left;
+	font-style: italic
+}
+
+
+ul.zebra > li, table.zebra tbody td {
+	border-bottom: 1px solid #DDD;}
+ul.zebra > li:first-child, table.zebra tbody tr:first-child td {
+	border-top: 1px solid #ddd
+}
+ul.zebra > li.odd, table.zebra tbody tr.odd {
+	background: #F4F4F4
+}
+ul.zebra > li:nth-of-type(odd), table.zebra tbody tr:nth-of-type(odd) {
+	background: #F4F4F4
+}
+.mod-fabric ul.zebra > li, .mod-fabric table.zebra tbody td {
+	border-bottom: 1px solid #3C3C3C
+}
+.mod-fabric ul.zebra > li:first-child, .mod-fabric table.zebra tbody tr:first-child td {
+	border-top: 1px solid #3C3C3C
+}
+.mod-fabric ul.zebra > li.odd, .mod-fabric table.zebra tbody tr.odd {
+	background: #494949
+}
+.mod-fabric ul.zebra > li:nth-of-type(odd), .mod-fabric table.zebra tbody tr:nth-of-type(odd) {
+	background: #494949
+}
+table.zebra caption {
+	color: #999
+}
+
+
+a.bt_buscar {
+position: fixed;
+top: 0px;
+text-align: center;
+background: white;
+display: block;
+padding: 10px;
+width: 100%;
+}
+.contenidoVerBuscar{
+    width: 99%;
+    margin: 0 auto;
+    padding: 0px;
+}

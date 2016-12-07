@@ -1,0 +1,139 @@
+.plantillas {
+width: 23.2%;
+border: 1px solid #FCD354;
+background: white;
+color: black;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+-khtml-border-radius: 4px;
+border-radius: 4px;
+padding: 10px;
+display: inline-block;
+margin: 4px;
+vertical-align: top;
+min-width: 323px;
+}
+.lb-exportar{
+	width: 1500px !important;
+	margin:5px;
+}
+.listas-exportar{
+	width:200px;
+	display: inline-block;
+}
+.titles{
+	margin-bottom:10px !important;
+}
+.pantillas_guardadas{
+	width: 320px;
+	margin:10px auto;
+}
+.columna{
+	width:175px;
+	float:left;
+	margin:0 5px;
+}
+.botones{
+    width: 100%;
+    margin: 12px auto 5px;
+	text-align:center;
+}
+.porcentaje{
+	font-size:18px;
+	width:100%;
+	text-align:center;
+	margin:5px 0;
+	color:#84C550;
+	font-weight:bolder;
+}
+.edit{
+	background:url(images/edit.png) no-repeat center;
+	width:15px;
+	height:15px;
+	cursor:pointer;
+	float: right;
+	margin:2px;
+}
+.search{
+	background:url(images/search.png) no-repeat center;
+	width:15px;
+	height:15px;
+	cursor:pointer;
+	float: right;
+	margin:2px;
+}
+.textea{
+	width: 297px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	margin: 5px 0;
+}
+.adjuntar{
+    width: 450px;
+    margin: 12px auto 5px;
+	text-align:center;
+}
+.tr1{
+	padding: 7px !important;
+	overflow: auto;
+	zoom: 1;
+	border: 2px solid #FCD354;
+	color: #333;
+	background: #FFF4C0;
+	vertical-align: middle;
+	text-align: center;
+}
+.tr2{
+	padding: 7px !important;
+	overflow: auto;
+	zoom: 1;
+	border: 2px solid #FCD354;
+	color: #333;
+	background: #fff;
+	vertical-align: middle;
+	text-align: center;
+}
+table{
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+
+}
+.nuevo_campo{
+	width: 400px;
+	border: 1px solid #FCD354;
+	background: white;
+	color: black;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	padding: .5em;
+	float: left;
+	margin: 20px 190px 0;
+}
+.textea2{
+	width: 300px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	float:right;
+}
+.listas-exportar2{
+	width:307px;
+	float: right;
+}
+.listas-exportar3 {
+	width: 300px;
+	margin-right: 50px;
+}
+.send{
+	background:url(images/send.png) no-repeat;
+	width:50px;
+	height:20px;
+	padding-left:30px;
+}
